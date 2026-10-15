@@ -2,6 +2,8 @@
 
 A desktop app I use to track my A-level revision for Maths, Further Maths and Physics. It knows every chapter and topic in my courses, tells me what to review each day, and turns my progress into a few charts that are more fun to look at than a spreadsheet.
 
+**[Live demo](https://a365l.github.io/study-tracker/web/)**: runs in your browser on made-up data, nothing to install. Anything you change stays in your browser.
+
 ![Overview page with the mastery orbit, progress chart and confidence landscape](docs/overview.png)
 
 *The overview page running on made-up demo data (`python app.py --demo`).*
@@ -28,6 +30,7 @@ A desktop app I use to track my A-level revision for Maths, Further Maths and Ph
 - Data is saved to `data/data.json` with atomic writes. If the file is ever corrupted, the app keeps a copy of it and warns you to restore a backup.
 - If `data-location.txt` exists, its single line is used as the data folder instead (I point mine at OneDrive so it's backed up off the PC).
 - The curriculum lives in `curriculum/*.json`, separate from my progress, so courses can be edited without touching anyone's data.
+- The live demo is the same front end with no server, hosted on GitHub Pages. It loads `demo/data.json`, moves every date so the data ends today, and saves changes to localStorage.
 
 ## Running it
 
@@ -52,7 +55,7 @@ then open `http://127.0.0.1:8765/#preview`.
 app.py                    local server, storage, backups, the app window
 web/                      the UI: index.html, app.js, visuals.js (canvas charts), style.css
 curriculum/               course definitions + checked revision links (resources.json)
-demo/data.json            sample data used for the screenshot
+demo/data.json            sample data used for the screenshot and the live demo
 tools/make_demo_data.py   generates the demo data by simulating a term of study
 tools/build_resources.py  rebuilds resources.json from saved PMT / Maths Genie pages
 tools/explore.py          dumps links from index pages when mapping new resources

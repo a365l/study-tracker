@@ -99,7 +99,16 @@ function migrate(d) {
   return out;
 }
 
-/* ---------- backend bridge (app.py over local HTTP, or localStorage in a plain browser) ---------- */
+/* Demo data ends on a fixed day. Move every date and timestamp by the same number of days so it ends today. */
+function shiftDays(v, n) {
+  if (typeof v === 'string') return /^\d{4}-\d{2}-\d{2}$/.test(v) ? addDays(v, n) : v;
+  if (typeof v === 'number') return v > 1e12 ? v + n * DAY : v;
+  if (Array.isArray(v)) return v.map(x => shiftDays(x, n));
+  if (v && typeof v === 'object') return Object.fromEntries(Object.entries(v).map(([k, x]) => [shiftDays(k, n), shiftDays(x, n)]));
+  return v;
+}
+
+/* ---------- backend bridge (app.py over local HTTP, or localStorage + demo data in a plain browser) ---------- */
 const Backend = {
   native: false,
   token: '',
@@ -131,6 +140,13 @@ const Backend = {
     try { resources = await (await fetch('../curriculum/resources.json')).json(); } catch { /* optional */ }
     let data = null;
     try { data = JSON.parse(localStorage.getItem('study-tracker-preview')); } catch { /* none */ }
+    if (!data) {
+      try {
+        const demo = await (await fetch('../demo/data.json')).json();
+        const end = demo.trend.length ? demo.trend[demo.trend.length - 1].d : todayISO();
+        data = shiftDays(demo, dayDiff(end, todayISO()));
+      } catch { /* no demo, start empty */ }
+    }
     return { curriculum, resources, data, warning: null, dataPath: 'browser preview (localStorage)' };
   },
   async save(data) {
@@ -1694,7 +1710,7 @@ setInterval(() => {
   if (D.settings.auto && Date.now() - D.settings.auto.lastAt > AUTO_GAP * 60000) closeAuto(true);
   const hadToday = D.trend.length && D.trend[D.trend.length - 1].d === todayISO();
   snapshotTrend();
-  $('#modeNote').textContent = Backend.native ? '' : 'Browser preview · data in localStorage';
+  $('#modeNote').textContent = Backend.native ? '' : 'Demo · changes stay in this browser';
   render();
   if (!res.data || !hadToday || recovered) persist(); else setSaveState('saved');
   if (recovered) toast('Recovered changes that hadn’t been saved last time');
