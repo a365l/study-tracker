@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Study Tracker</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2308090c'/%3E%3Crect x='10' y='10' width='12' height='12' rx='2' fill='%23c8ff4d' transform='rotate(45 16 16)'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <aside id="side">
+    <div class="brand"><span class="mark"></span>Study Tracker</div>
+    <button class="search-btn" data-action="open-search">
+      <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <span>Search topics</span><kbd>Ctrl K</kbd>
+    </button>
+    <nav id="nav"></nav>
+    <div id="sideTimer"></div>
+    <div class="side-foot">
+      <div id="saveState"></div>
+      <div id="modeNote"></div>
+    </div>
+  </aside>
+  <main id="main"><div id="view"><div class="loading">Loading…</div></div></main>
+</div>
+<div id="toast"></div>
+<script src="visuals.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

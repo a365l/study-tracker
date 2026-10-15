@@ -1,0 +1,114 @@
+{
+  "id": "physics",
+  "name": "Physics",
+  "board": "OCR A-level Physics A · H556",
+  "color": "#4dc3ff",
+  "source": "Built from the OCR Physics A (H556) spec structure from memory. Not yet checked against the official spec PDF. The PAG list especially needs checking.",
+  "papers": {
+    "P1": "Paper 1 · Modelling physics (modules 1, 2, 3, 5)",
+    "P2": "Paper 2 · Exploring physics (modules 1, 2, 4, 6)",
+    "P3": "Paper 3 · Unified physics (all modules)"
+  },
+  "courses": [
+    {
+      "id": "m1",
+      "name": "Module 1 · Practical skills",
+      "units": [
+        { "id": "1-1-written-practical", "name": "1.1 Practical skills assessed in written exams", "year": 1, "papers": ["P1", "P2", "P3"],
+          "topics": ["1.1.1 Planning: designing experiments, choosing apparatus", "1.1.2 Implementing: methods, measurements, recording data", "1.1.3 Analysis: processing data, graphs, uncertainties", "1.1.4 Evaluation: errors, limitations, improvements"] }
+      ]
+    },
+    {
+      "id": "m2",
+      "name": "Module 2 · Foundations of physics",
+      "units": [
+        { "id": "2-1-quantities-units", "name": "2.1 Physical quantities and units", "year": 1, "papers": ["P1", "P2", "P3"],
+          "topics": ["2.1.1 Physical quantities and estimation", "2.1.2 S.I. units, prefixes and homogeneity of equations"] },
+        { "id": "2-2-measurements", "name": "2.2 Making measurements and analysing data", "year": 1, "papers": ["P1", "P2", "P3"],
+          "topics": ["Systematic and random errors", "Precision and accuracy", "Absolute and percentage uncertainties", "Combining uncertainties", "Error bars and worst-fit lines on graphs"] },
+        { "id": "2-3-scalars-vectors", "name": "2.3 Nature of quantities", "year": 1, "papers": ["P1", "P2", "P3"],
+          "topics": ["2.3.1 Scalars and vectors: adding vectors", "Resolving vectors into components"] }
+      ]
+    },
+    {
+      "id": "m3",
+      "name": "Module 3 · Forces and motion",
+      "units": [
+        { "id": "3-1-motion", "name": "3.1 Motion", "year": 1, "papers": ["P1", "P3"],
+          "topics": ["3.1.1 Kinematics: displacement, velocity, acceleration, graphs", "3.1.2 Linear motion: suvat, free fall and g, stopping distances", "3.1.3 Projectile motion"] },
+        { "id": "3-2-forces", "name": "3.2 Forces in action", "year": 1, "papers": ["P1", "P3"],
+          "topics": ["3.2.1 Dynamics: F = ma, weight, free-body diagrams", "3.2.2 Motion with non-uniform acceleration: drag, terminal velocity", "3.2.3 Equilibrium: moments, couples, triangle of forces", "3.2.4 Density and pressure: p = hρg, upthrust"] },
+        { "id": "3-3-work-energy", "name": "3.3 Work, energy and power", "year": 1, "papers": ["P1", "P3"],
+          "topics": ["3.3.1 Work and conservation of energy", "3.3.2 Kinetic and potential energies", "3.3.3 Power and efficiency"] },
+        { "id": "3-4-materials", "name": "3.4 Materials", "year": 1, "papers": ["P1", "P3"],
+          "topics": ["3.4.1 Springs: Hooke's law, force-extension graphs, elastic potential energy", "3.4.2 Mechanical properties of matter: stress, strain, Young modulus"] },
+        { "id": "3-5-momentum", "name": "3.5 Newton's laws of motion and momentum", "year": 1, "papers": ["P1", "P3"],
+          "topics": ["3.5.1 Newton's laws of motion: momentum, F = Δp/Δt, impulse", "3.5.2 Collisions: conservation of momentum, elastic and inelastic"] }
+      ]
+    },
+    {
+      "id": "m4",
+      "name": "Module 4 · Electrons, waves and photons",
+      "units": [
+        { "id": "4-1-charge-current", "name": "4.1 Charge and current", "year": 1, "papers": ["P2", "P3"],
+          "topics": ["4.1.1 Charge: current, Kirchhoff's first law", "4.1.2 Mean drift velocity: I = Anev"] },
+        { "id": "4-2-energy-resistance", "name": "4.2 Energy, power and resistance", "year": 1, "papers": ["P2", "P3"],
+          "topics": ["4.2.1 Circuit symbols", "4.2.2 E.m.f. and p.d.", "4.2.3 Resistance: Ohm's law, I-V characteristics", "4.2.4 Resistivity: thermistors and LDRs", "4.2.5 Power: P = VI, kilowatt-hours"] },
+        { "id": "4-3-circuits", "name": "4.3 Electrical circuits", "year": 1, "papers": ["P2", "P3"],
+          "topics": ["4.3.1 Series and parallel circuits: Kirchhoff's second law", "4.3.2 Internal resistance", "4.3.3 Potential dividers"] },
+        { "id": "4-4-waves", "name": "4.4 Waves", "year": 1, "papers": ["P2", "P3"],
+          "topics": ["4.4.1 Wave motion: v = fλ, reflection, refraction, diffraction, intensity", "4.4.2 Electromagnetic waves: polarisation, refractive index, TIR", "4.4.3 Superposition: interference, path difference, Young's double slit", "4.4.4 Stationary waves: nodes, antinodes, harmonics"] },
+        { "id": "4-5-quantum", "name": "4.5 Quantum physics", "year": 1, "papers": ["P2", "P3"],
+          "topics": ["4.5.1 Photons: E = hf, the electronvolt, Planck constant from LEDs", "4.5.2 The photoelectric effect: work function, threshold frequency", "4.5.3 Wave-particle duality: electron diffraction, de Broglie"] }
+      ]
+    },
+    {
+      "id": "m5",
+      "name": "Module 5 · Newtonian world and astrophysics",
+      "units": [
+        { "id": "5-1-thermal", "name": "5.1 Thermal physics", "year": 2, "papers": ["P1", "P3"],
+          "topics": ["5.1.1 Temperature: thermal equilibrium, absolute scale", "5.1.2 Solid, liquid and gas: kinetic model, internal energy", "5.1.3 Thermal properties: specific heat capacity, specific latent heat", "5.1.4 Ideal gases: gas laws, pV = nRT, kinetic theory, rms speed"] },
+        { "id": "5-2-circular", "name": "5.2 Circular motion", "year": 2, "papers": ["P1", "P3"],
+          "topics": ["5.2.1 Kinematics of circular motion: radians, angular velocity", "5.2.2 Centripetal force and acceleration"] },
+        { "id": "5-3-oscillations", "name": "5.3 Oscillations", "year": 2, "papers": ["P1", "P3"],
+          "topics": ["5.3.1 Simple harmonic oscillations", "5.3.2 Energy of a simple harmonic oscillator", "5.3.3 Damping, forced oscillations and resonance"] },
+        { "id": "5-4-gravity", "name": "5.4 Gravitational fields", "year": 2, "papers": ["P1", "P3"],
+          "topics": ["5.4.1 Point and spherical masses: gravitational field strength", "5.4.2 Newton's law of gravitation", "5.4.3 Planetary motion: Kepler's laws, geostationary orbits", "5.4.4 Gravitational potential and energy, escape velocity"] },
+        { "id": "5-5-astro", "name": "5.5 Astrophysics and cosmology", "year": 2, "papers": ["P1", "P3"],
+          "topics": ["5.5.1 Stars: life cycle, HR diagram", "5.5.2 EM radiation from stars: spectra, gratings, Wien's and Stefan's laws", "5.5.3 Cosmology: parallax, Hubble's law, Big Bang, CMB"] }
+      ]
+    },
+    {
+      "id": "m6",
+      "name": "Module 6 · Particles and medical physics",
+      "units": [
+        { "id": "6-1-capacitors", "name": "6.1 Capacitors", "year": 2, "papers": ["P2", "P3"],
+          "topics": ["6.1.1 Capacitors: series and parallel", "6.1.2 Energy stored", "6.1.3 Charging and discharging: time constant, exponential decay"] },
+        { "id": "6-2-electric-fields", "name": "6.2 Electric fields", "year": 2, "papers": ["P2", "P3"],
+          "topics": ["6.2.1 Point and spherical charges", "6.2.2 Coulomb's law", "6.2.3 Uniform electric fields: parallel plates, charged particle motion", "6.2.4 Electric potential and energy"] },
+        { "id": "6-3-electromagnetism", "name": "6.3 Electromagnetism", "year": 2, "papers": ["P2", "P3"],
+          "topics": ["6.3.1 Magnetic fields: F = BIL, Fleming's left-hand rule", "6.3.2 Motion of charged particles: F = BQv, velocity selectors", "6.3.3 Electromagnetic induction: Faraday's and Lenz's laws, transformers"] },
+        { "id": "6-4-nuclear", "name": "6.4 Nuclear and particle physics", "year": 2, "papers": ["P2", "P3"],
+          "topics": ["6.4.1 The nuclear atom: alpha scattering, strong nuclear force", "6.4.2 Fundamental particles: quarks, hadrons, leptons", "6.4.3 Radioactivity: decay equations, half-life", "6.4.4 Nuclear fission and fusion: binding energy, E = mc²"] },
+        { "id": "6-5-medical", "name": "6.5 Medical imaging", "year": 2, "papers": ["P2", "P3"],
+          "topics": ["6.5.1 Using X-rays: attenuation, CAT scans", "6.5.2 Diagnostic methods: tracers, gamma camera, PET", "6.5.3 Using ultrasound: acoustic impedance, Doppler"] }
+      ]
+    },
+    {
+      "id": "pag",
+      "name": "Practicals (PAGs)",
+      "units": [
+        { "id": "pag-year1", "name": "PAGs · Year 1", "year": 1, "type": "checklist",
+          "topics": ["PAG 1 · Mechanics", "PAG 2 · Materials", "PAG 3 · Electrical properties", "PAG 4 · Electrical circuits", "PAG 5 · Waves", "PAG 6 · Quantum physics"] },
+        { "id": "pag-year2", "name": "PAGs · Year 2", "year": 2, "type": "checklist", "unverified": "PAG 7, 8 and 11 were renamed to match PMT's OCR A practical notes. Check the names against your lab book.",
+          "topics": [
+            { "name": "PAG 7 · Ionising radiation", "id": "pag-7-thermal-physics" },
+            { "name": "PAG 8 · Gases", "id": "pag-8-electromagnetism" },
+            "PAG 9 · Capacitors",
+            "PAG 10 · Simple harmonic motion",
+            { "name": "PAG 11 · Transformers, specific heat capacity, magnetic fields", "id": "pag-11-ideal-gases" },
+            "PAG 12 · Research skills"] }
+      ]
+    }
+  ]
+}

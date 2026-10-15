@@ -1,0 +1,98 @@
+{
+  "id": "further",
+  "name": "Further Maths",
+  "board": "Edexcel A-level 9FM0 · options FM1 + D1",
+  "color": "#ff7ac6",
+  "source": "Built from the Pearson Edexcel textbook structure and the 9FM0 spec from memory. Not yet checked against the official spec PDF. The Year 1/2 split for FM1 and D1 is a guess based on AS content; change it per unit if your school teaches them differently.",
+  "papers": {
+    "P1": "Paper 1 · Core Pure 1",
+    "P2": "Paper 2 · Core Pure 2",
+    "P3/4": "Papers 3 & 4 · Further Mechanics 1 and Decision 1 (one on each)"
+  },
+  "courses": [
+    {
+      "id": "cp1",
+      "name": "Core Pure 1",
+      "units": [
+        { "id": "complex-numbers", "name": "Complex numbers", "year": 1, "papers": ["P1", "P2"],
+          "topics": ["Imaginary and complex numbers", "Multiplying complex numbers", "Complex conjugation", "Roots of quadratic equations", "Solving cubic and quartic equations"] },
+        { "id": "argand-diagrams", "name": "Argand diagrams", "year": 1, "papers": ["P1", "P2"],
+          "topics": ["Argand diagrams", "Modulus and argument", "Modulus-argument form of complex numbers", "Loci in the Argand diagram", "Regions in the Argand diagram"] },
+        { "id": "series", "name": "Series", "year": 1, "papers": ["P1", "P2"],
+          "topics": ["Sums of natural numbers", "Sums of squares and cubes"] },
+        { "id": "roots-polynomials", "name": "Roots of polynomials", "year": 1, "papers": ["P1", "P2"],
+          "topics": ["Roots of a quadratic equation", "Roots of a cubic equation", "Roots of a quartic equation", "Expressions relating to the roots of a polynomial", "Linear transformations of roots"] },
+        { "id": "volumes-revolution", "name": "Volumes of revolution", "year": 1, "papers": ["P1", "P2"],
+          "topics": ["Volumes of revolution around the x-axis", "Volumes of revolution around the y-axis", "Adding and subtracting volumes", "Modelling with volumes of revolution"] },
+        { "id": "matrices", "name": "Matrices", "year": 1, "papers": ["P1", "P2"],
+          "topics": ["Introduction to matrices", "Matrix multiplication", "Determinants", "Inverting a 2x2 matrix", "Inverting a 3x3 matrix", "Solving systems of equations using matrices"] },
+        { "id": "linear-transformations", "name": "Linear transformations", "year": 1, "papers": ["P1", "P2"],
+          "topics": ["Linear transformations in two dimensions", "Reflections and rotations", "Enlargements and stretches", "Successive transformations", "Linear transformations in three dimensions", "The inverse of a linear transformation"] },
+        { "id": "proof-induction", "name": "Proof by induction", "year": 1, "papers": ["P1", "P2"],
+          "topics": ["Proof by mathematical induction (including series)", "Proving divisibility results", "Proving statements about matrices"] },
+        { "id": "vectors", "name": "Vectors", "year": 1, "papers": ["P1", "P2"],
+          "topics": ["Equation of a line in three dimensions", "Equation of a plane in three dimensions", "Scalar product", "Calculating angles between lines and planes", "Points of intersection", "Finding perpendiculars"] }
+      ]
+    },
+    {
+      "id": "cp2",
+      "name": "Core Pure 2",
+      "units": [
+        { "id": "complex-numbers", "name": "Complex numbers (CP2)", "year": 2, "papers": ["P1", "P2"],
+          "topics": ["Exponential form of complex numbers", "Multiplying and dividing complex numbers", "De Moivre's theorem", "Trigonometric identities", "Sums of series", "nth roots of a complex number", "Solving geometric problems"] },
+        { "id": "series", "name": "Series (CP2)", "year": 2, "papers": ["P1", "P2"],
+          "topics": ["The method of differences", "Higher derivatives", "Maclaurin series", "Series expansions of compound functions"] },
+        { "id": "methods-calculus", "name": "Methods in calculus", "year": 2, "papers": ["P1", "P2"],
+          "topics": ["Improper integrals", "The mean value of a function", "Differentiating inverse trigonometric functions", "Integrating with inverse trigonometric functions", "Integrating using partial fractions"] },
+        { "id": "volumes-revolution", "name": "Volumes of revolution (CP2)", "year": 2, "papers": ["P1", "P2"],
+          "topics": ["Volumes of revolution around the x-axis", "Volumes of revolution around the y-axis", "Volumes of revolution of curves defined parametrically", "Modelling with volumes of revolution"] },
+        { "id": "polar-coordinates", "name": "Polar coordinates", "year": 2, "papers": ["P1", "P2"],
+          "topics": ["Polar coordinates and equations", "Sketching curves", "Area enclosed by a polar curve", "Tangents to polar curves"] },
+        { "id": "hyperbolic-functions", "name": "Hyperbolic functions", "year": 2, "papers": ["P1", "P2"],
+          "topics": ["Introduction to hyperbolic functions", "Inverse hyperbolic functions", "Identities and equations", "Differentiating hyperbolic functions", "Integrating hyperbolic functions"] },
+        { "id": "methods-de", "name": "Methods in differential equations", "year": 2, "papers": ["P1", "P2"],
+          "topics": ["First-order differential equations", "Second-order homogeneous differential equations", "Second-order non-homogeneous differential equations", "Using boundary conditions"] },
+        { "id": "modelling-de", "name": "Modelling with differential equations", "year": 2, "papers": ["P1", "P2"],
+          "topics": ["Modelling with first-order differential equations", "Simple harmonic motion", "Damped and forced harmonic motion", "Coupled first-order simultaneous differential equations"] }
+      ]
+    },
+    {
+      "id": "fm1",
+      "name": "Further Mechanics 1",
+      "units": [
+        { "id": "momentum-impulse", "name": "Momentum and impulse", "year": 1, "papers": ["P3/4"],
+          "topics": ["Momentum in one direction", "Conservation of momentum", "Momentum as a vector", "Conservation of momentum in two dimensions"] },
+        { "id": "work-energy-power", "name": "Work, energy and power", "year": 1, "papers": ["P3/4"],
+          "topics": ["Work done", "Kinetic and potential energy", "Conservation of mechanical energy and the work-energy principle", "Power"] },
+        { "id": "collisions-1d", "name": "Elastic collisions in one dimension", "year": 1, "papers": ["P3/4"],
+          "topics": ["Direct impact and Newton's law of restitution", "Direct collision with a smooth plane", "Loss of kinetic energy", "Successive direct impacts"] },
+        { "id": "elastic-strings", "name": "Elastic strings and springs", "year": 2, "papers": ["P3/4"],
+          "topics": ["Hooke's law", "Hooke's law and equilibrium problems", "Elastic energy", "Problems involving elastic energy"] },
+        { "id": "collisions-2d", "name": "Elastic collisions in two dimensions", "year": 2, "papers": ["P3/4"],
+          "topics": ["Oblique impact with a fixed surface", "Successive oblique impacts", "Oblique impact of smooth spheres"] }
+      ]
+    },
+    {
+      "id": "d1",
+      "name": "Decision 1",
+      "units": [
+        { "id": "algorithms", "name": "Algorithms", "year": 1, "papers": ["P3/4"],
+          "topics": ["Using and understanding algorithms", "Flow charts", "Bubble sort", "Quick sort", "Bin-packing algorithms", "Order of an algorithm"] },
+        { "id": "graphs-networks", "name": "Graphs and networks", "year": 1, "papers": ["P3/4"],
+          "topics": ["Modelling with graphs", "Graph theory", "Special types of graph", "Representing graphs and networks", "Planar graphs and the planarity algorithm"] },
+        { "id": "algorithms-graphs", "name": "Algorithms on graphs", "year": 1, "papers": ["P3/4"],
+          "topics": ["Kruskal's algorithm", "Prim's algorithm", "Prim's algorithm on a distance matrix", "Dijkstra's algorithm", "Floyd's algorithm"] },
+        { "id": "route-inspection", "name": "Route inspection", "year": 1, "papers": ["P3/4"],
+          "topics": ["Eulerian graphs", "Using the route inspection algorithm", "Networks with more than four odd nodes"] },
+        { "id": "tsp", "name": "The travelling salesman problem", "year": 1, "papers": ["P3/4"],
+          "topics": ["The classical and practical travelling salesman problems", "Upper bound using a minimum spanning tree", "Lower bound using a minimum spanning tree", "Upper bound using the nearest neighbour algorithm"] },
+        { "id": "critical-path", "name": "Critical path analysis", "year": 1, "papers": ["P3/4"],
+          "topics": ["Modelling a project (activity networks)", "Dealing with dummies", "Early and late event times", "Critical activities", "The float of an activity", "Gantt charts", "Resource histograms", "Scheduling diagrams"] },
+        { "id": "linear-programming", "name": "Linear programming", "year": 1, "papers": ["P3/4"],
+          "topics": ["Formulating linear programming problems", "Graphical methods", "Locating the optimal point", "Solutions with integer values"] },
+        { "id": "simplex", "name": "The simplex algorithm", "year": 2, "papers": ["P3/4"], "unverified": "Check this chapter is in your D1 course and which year it's taught.",
+          "topics": ["Formulating problems for the simplex method", "The simplex method", "Problems requiring integer solutions", "Two-stage simplex method", "The big-M method"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "_readme": "Subjects load in this order. Each file defines courses > units > topics. Topic progress is keyed by unit id + topic id (topic id defaults to a slug of its name), so if you rename a topic, add \"id\" with the old slug to keep its progress.",
+  "files": ["maths.json", "further-maths.json", "physics.json"]
+}

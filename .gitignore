@@ -1,0 +1,10 @@
+# personal data and per-machine settings
+data/
+data-location.txt
+
+# saved web pages used by tools/build_resources.py
+tools/pages/
+
+__pycache__/
+*.pyc
+*.tmp

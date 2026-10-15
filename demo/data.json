@@ -1,0 +1,2903 @@
+{
+ "version": 1,
+ "created": 1788418800000,
+ "units": {
+  "maths/pure/y1-quadratics": {
+   "notes": "Discriminant questions: remember to check the inequality direction"
+  },
+  "physics/m3/3-1-motion": {
+   "notes": "Projectiles: split into horizontal and vertical every time"
+  }
+ },
+ "topics": {
+  "maths/pure/y1-algebraic-expressions/index-laws": {
+   "stage": 4,
+   "at": 1790534700000,
+   "taughtAt": 1788437520000,
+   "rag": "green",
+   "reviewedAt": 1790534700000
+  },
+  "physics/m2/2-1-quantities-units/2-1-1-physical-quantities-and-estimation": {
+   "stage": 4,
+   "at": 1790526060000,
+   "taughtAt": 1788424800000,
+   "rag": "green",
+   "reviewedAt": 1790526060000
+  },
+  "maths/stats/y1-data-collection/populations-and-samples": {
+   "stage": 4,
+   "at": 1790884620000,
+   "taughtAt": 1788509640000,
+   "rag": "green",
+   "reviewedAt": 1790884620000
+  },
+  "maths/mech/y1-modelling/constructing-a-model": {
+   "stage": 4,
+   "at": 1790614980000,
+   "taughtAt": 1788523920000,
+   "rag": "green",
+   "reviewedAt": 1790614980000
+  },
+  "physics/m3/3-1-motion/3-1-1-kinematics-displacement-velocity-acceleration-graphs": {
+   "stage": 4,
+   "at": 1790958720000,
+   "taughtAt": 1788516840000,
+   "rag": "green",
+   "reviewedAt": 1790958720000
+  },
+  "maths/stats/y1-data-collection/sampling": {
+   "stage": 4,
+   "at": 1791650520000,
+   "taughtAt": 1788768780000,
+   "rag": "green",
+   "reviewedAt": 1791650520000
+  },
+  "further/cp1/complex-numbers/imaginary-and-complex-numbers": {
+   "stage": 4,
+   "at": 1790870940000,
+   "taughtAt": 1788780300000,
+   "rag": "green",
+   "reviewedAt": 1790870940000
+  },
+  "physics/m3/3-1-motion/3-1-2-linear-motion-suvat-free-fall-and-g-stopping-distances": {
+   "stage": 4,
+   "at": 1791561660000,
+   "taughtAt": 1788771900000,
+   "rag": "amber",
+   "reviewedAt": 1791561660000
+  },
+  "maths/pure/y1-algebraic-expressions/expanding-brackets": {
+   "stage": 4,
+   "at": 1791568560000,
+   "taughtAt": 1788875220000,
+   "rag": "amber",
+   "reviewedAt": 1791568560000
+  },
+  "maths/mech/y1-modelling/modelling-assumptions": {
+   "stage": 4,
+   "at": 1790791980000,
+   "taughtAt": 1788875280000,
+   "rag": "green",
+   "reviewedAt": 1790791980000
+  },
+  "further/cp1/complex-numbers/multiplying-complex-numbers": {
+   "stage": 4,
+   "at": 1791476100000,
+   "taughtAt": 1788870240000,
+   "rag": "amber",
+   "reviewedAt": 1791476100000
+  },
+  "physics/m3/3-1-motion/3-1-3-projectile-motion": {
+   "stage": 4,
+   "at": 1791911340000,
+   "taughtAt": 1788857640000,
+   "rag": "amber",
+   "reviewedAt": 1791911340000
+  },
+  "maths/pure/y1-algebraic-expressions/factorising": {
+   "stage": 4,
+   "at": 1792004460000,
+   "taughtAt": 1788962100000,
+   "rag": "amber",
+   "reviewedAt": 1792004460000
+  },
+  "maths/stats/y1-data-collection/non-random-sampling": {
+   "stage": 4,
+   "at": 1791230640000,
+   "taughtAt": 1788948000000,
+   "rag": "green",
+   "reviewedAt": 1791230640000
+  },
+  "maths/mech/y1-modelling/quantities-and-units": {
+   "stage": 4,
+   "at": 1791403080000,
+   "taughtAt": 1788946680000,
+   "rag": "green",
+   "reviewedAt": 1791403080000
+  },
+  "further/cp1/complex-numbers/complex-conjugation": {
+   "stage": 4,
+   "at": 1792094940000,
+   "taughtAt": 1788961800000,
+   "rag": "amber",
+   "reviewedAt": 1792094940000
+  },
+  "further/d1/algorithms/using-and-understanding-algorithms": {
+   "stage": 4,
+   "at": 1791907680000,
+   "taughtAt": 1788959400000,
+   "rag": "amber",
+   "reviewedAt": 1791907680000
+  },
+  "physics/m1/1-1-written-practical/1-1-1-planning-designing-experiments-choosing-apparatus": {
+   "stage": 4,
+   "at": 1791043800000,
+   "taughtAt": 1788942720000,
+   "rag": "green",
+   "reviewedAt": 1791043800000
+  },
+  "maths/mech/y1-modelling/working-with-vectors": {
+   "stage": 4,
+   "at": 1790972820000,
+   "taughtAt": 1789048500000,
+   "rag": "green",
+   "reviewedAt": 1790874300000
+  },
+  "further/cp1/complex-numbers/roots-of-quadratic-equations": {
+   "stage": 4,
+   "at": 1791478980000,
+   "taughtAt": 1789044240000,
+   "rag": "green",
+   "reviewedAt": 1791478980000
+  },
+  "physics/m2/2-1-quantities-units/2-1-2-s-i-units-prefixes-and-homogeneity-of-equations": {
+   "stage": 4,
+   "at": 1791738180000,
+   "taughtAt": 1789037940000,
+   "rag": "amber",
+   "reviewedAt": 1791738180000
+  },
+  "physics/m3/3-2-forces/3-2-1-dynamics-f-ma-weight-free-body-diagrams": {
+   "stage": 4,
+   "at": 1790711940000,
+   "taughtAt": 1789029180000,
+   "rag": "green",
+   "reviewedAt": 1790711940000
+  },
+  "maths/pure/y1-algebraic-expressions/negative-and-fractional-indices": {
+   "stage": 4,
+   "at": 1791832020000,
+   "taughtAt": 1789128480000,
+   "rag": "amber",
+   "reviewedAt": 1791832020000
+  },
+  "maths/stats/y1-data-collection/types-of-data": {
+   "stage": 4,
+   "at": 1791835140000,
+   "taughtAt": 1789121220000,
+   "rag": "green",
+   "reviewedAt": 1791835140000
+  },
+  "maths/mech/y1-constant-acceleration/displacement-time-graphs": {
+   "stage": 4,
+   "at": 1791823920000,
+   "taughtAt": 1789116180000,
+   "rag": "amber",
+   "reviewedAt": 1791823920000
+  },
+  "further/d1/algorithms/flow-charts": {
+   "stage": 4,
+   "at": 1791912300000,
+   "taughtAt": 1789123020000,
+   "rag": "amber",
+   "reviewedAt": 1791912300000
+  },
+  "maths/pure/y1-algebraic-expressions/surds": {
+   "stage": 4,
+   "at": 1792092600000,
+   "taughtAt": 1789372980000,
+   "rag": "amber",
+   "reviewedAt": 1792092600000
+  },
+  "maths/mech/y1-constant-acceleration/velocity-time-graphs": {
+   "stage": 4,
+   "at": 1791920160000,
+   "taughtAt": 1789378980000,
+   "rag": "amber",
+   "reviewedAt": 1791920160000
+  },
+  "further/d1/algorithms/bubble-sort": {
+   "stage": 4,
+   "at": 1790711760000,
+   "taughtAt": 1789386240000,
+   "rag": "green",
+   "reviewedAt": 1790711760000
+  },
+  "physics/m2/2-2-measurements/systematic-and-random-errors": {
+   "stage": 4,
+   "at": 1791657900000,
+   "taughtAt": 1789393500000,
+   "rag": "green",
+   "reviewedAt": 1790618700000
+  },
+  "maths/pure/y1-algebraic-expressions/rationalising-denominators": {
+   "stage": 3,
+   "at": 1790883300000,
+   "taughtAt": 1789474380000,
+   "rag": "green",
+   "reviewedAt": 1790883300000
+  },
+  "further/d1/algorithms/quick-sort": {
+   "stage": 4,
+   "at": 1791576120000,
+   "taughtAt": 1789471200000,
+   "rag": "amber",
+   "reviewedAt": 1791576120000
+  },
+  "physics/m3/3-2-forces/3-2-2-motion-with-non-uniform-acceleration-drag-terminal-velocit": {
+   "stage": 4,
+   "at": 1791396180000,
+   "taughtAt": 1789462200000,
+   "rag": "green",
+   "reviewedAt": 1791396180000
+  },
+  "maths/pure/y1-quadratics/solving-quadratic-equations": {
+   "stage": 4,
+   "at": 1791481560000,
+   "taughtAt": 1789551840000,
+   "rag": "amber",
+   "reviewedAt": 1791481560000
+  },
+  "physics/m3/3-2-forces/3-2-3-equilibrium-moments-couples-triangle-of-forces": {
+   "stage": 4,
+   "at": 1790880180000,
+   "taughtAt": 1789556640000,
+   "rag": "green",
+   "reviewedAt": 1790880180000
+  },
+  "physics/m2/2-2-measurements/precision-and-accuracy": {
+   "stage": 4,
+   "at": 1791827760000,
+   "taughtAt": 1789636500000,
+   "rag": "amber",
+   "reviewedAt": 1791827760000
+  },
+  "physics/m3/3-2-forces/3-2-4-density-and-pressure-p-h-g-upthrust": {
+   "stage": 4,
+   "at": 1790882580000,
+   "taughtAt": 1789634340000,
+   "rag": "green",
+   "reviewedAt": 1790882580000
+  },
+  "maths/pure/y1-quadratics/completing-the-square": {
+   "stage": 4,
+   "at": 1791396540000,
+   "taughtAt": 1789722780000,
+   "rag": "green",
+   "reviewedAt": 1790441280000
+  },
+  "further/cp1/complex-numbers/solving-cubic-and-quartic-equations": {
+   "stage": 4,
+   "at": 1791576180000,
+   "taughtAt": 1789727220000,
+   "rag": "green",
+   "reviewedAt": 1791576180000
+  },
+  "physics/m1/1-1-written-practical/1-1-2-implementing-methods-measurements-recording-data": {
+   "stage": 4,
+   "at": 1791303840000,
+   "taughtAt": 1789734180000,
+   "rag": "green",
+   "reviewedAt": 1791303840000
+  },
+  "maths/pure/y1-quadratics/functions": {
+   "stage": 4,
+   "at": 1791571980000,
+   "taughtAt": 1789993200000,
+   "rag": "green",
+   "reviewedAt": 1790363040000
+  },
+  "further/cp1/argand-diagrams/argand-diagrams": {
+   "stage": 4,
+   "at": 1790712360000,
+   "taughtAt": 1789997220000,
+   "rag": "green",
+   "reviewedAt": 1790712360000
+  },
+  "physics/m2/2-2-measurements/absolute-and-percentage-uncertainties": {
+   "stage": 4,
+   "at": 1791998820000,
+   "taughtAt": 1789977960000,
+   "rag": "amber",
+   "reviewedAt": 1791998820000
+  },
+  "physics/m3/3-3-work-energy/3-3-1-work-and-conservation-of-energy": {
+   "stage": 4,
+   "at": 1791405720000,
+   "taughtAt": 1789984380000,
+   "rag": "green",
+   "reviewedAt": 1790535600000
+  },
+  "physics/m2/2-2-measurements/combining-uncertainties": {
+   "stage": 4,
+   "at": 1791652380000,
+   "taughtAt": 1790074080000,
+   "rag": "amber",
+   "reviewedAt": 1791652380000
+  },
+  "physics/m3/3-3-work-energy/3-3-2-kinetic-and-potential-energies": {
+   "stage": 4,
+   "at": 1792084620000,
+   "taughtAt": 1790075820000,
+   "rag": "amber",
+   "reviewedAt": 1792084620000
+  },
+  "maths/pure/y1-quadratics/quadratic-graphs": {
+   "stage": 4,
+   "at": 1791225240000,
+   "taughtAt": 1790155920000,
+   "rag": "green",
+   "reviewedAt": 1790444220000
+  },
+  "further/cp1/argand-diagrams/modulus-and-argument": {
+   "stage": 4,
+   "at": 1791648180000,
+   "taughtAt": 1790165100000,
+   "rag": "amber",
+   "reviewedAt": 1791648180000
+  },
+  "physics/m1/1-1-written-practical/1-1-3-analysis-processing-data-graphs-uncertainties": {
+   "stage": 3,
+   "at": 1792084260000,
+   "taughtAt": 1790163240000,
+   "rag": "amber",
+   "reviewedAt": 1792084260000
+  },
+  "further/cp1/argand-diagrams/modulus-argument-form-of-complex-numbers": {
+   "stage": 4,
+   "at": 1791147240000,
+   "taughtAt": 1790247900000,
+   "rag": "green",
+   "reviewedAt": 1790785080000
+  },
+  "maths/pure/y1-quadratics/the-discriminant": {
+   "stage": 4,
+   "at": 1790784720000,
+   "taughtAt": 1790332200000,
+   "rag": "green",
+   "reviewedAt": 1790613840000
+  },
+  "maths/mech/y1-constant-acceleration/constant-acceleration-formulae-suvat": {
+   "stage": 4,
+   "at": 1790965920000,
+   "taughtAt": 1790325960000,
+   "rag": "green",
+   "reviewedAt": 1790965920000
+  },
+  "further/cp1/argand-diagrams/loci-in-the-argand-diagram": {
+   "stage": 4,
+   "at": 1791131820000,
+   "taughtAt": 1790335080000,
+   "rag": "green",
+   "reviewedAt": 1790871480000
+  },
+  "physics/m2/2-2-measurements/error-bars-and-worst-fit-lines-on-graphs": {
+   "stage": 4,
+   "at": 1791825240000,
+   "taughtAt": 1790327580000,
+   "rag": "amber",
+   "reviewedAt": 1791825240000
+  },
+  "physics/m3/3-3-work-energy/3-3-3-power-and-efficiency": {
+   "stage": 4,
+   "at": 1791568320000,
+   "taughtAt": 1790328300000,
+   "rag": "green",
+   "reviewedAt": 1791308460000
+  },
+  "maths/pure/y1-quadratics/modelling-with-quadratics": {
+   "stage": 4,
+   "at": 1791231420000,
+   "taughtAt": 1790601540000,
+   "rag": "amber",
+   "reviewedAt": 1791231420000
+  },
+  "maths/pure/y1-equations-inequalities/linear-simultaneous-equations": {
+   "stage": 4,
+   "at": 1791650400000,
+   "taughtAt": 1790679360000,
+   "rag": "amber",
+   "reviewedAt": 1791650400000
+  },
+  "physics/m3/3-4-materials/3-4-1-springs-hooke-s-law-force-extension-graphs-elastic-potenti": {
+   "stage": 3,
+   "at": 1791485760000,
+   "taughtAt": 1790688000000,
+   "rag": "green",
+   "reviewedAt": 1791485760000
+  },
+  "maths/pure/y1-equations-inequalities/quadratic-simultaneous-equations": {
+   "stage": 3,
+   "at": 1792008060000,
+   "taughtAt": 1790761200000,
+   "rag": "amber",
+   "reviewedAt": 1792008060000
+  },
+  "maths/stats/y1-data-collection/the-large-data-set": {
+   "stage": 4,
+   "at": 1792005660000,
+   "taughtAt": 1790771160000,
+   "rag": "amber",
+   "reviewedAt": 1792005660000
+  },
+  "maths/pure/y1-equations-inequalities/simultaneous-equations-on-graphs": {
+   "stage": 4,
+   "at": 1792004880000,
+   "taughtAt": 1790846160000,
+   "rag": "green",
+   "reviewedAt": 1792004880000
+  },
+  "physics/m2/2-3-scalars-vectors/2-3-1-scalars-and-vectors-adding-vectors": {
+   "stage": 4,
+   "at": 1791909540000,
+   "taughtAt": 1790855460000,
+   "rag": "green",
+   "reviewedAt": 1791909540000
+  },
+  "further/cp1/argand-diagrams/regions-in-the-argand-diagram": {
+   "stage": 1,
+   "at": 1790930580000,
+   "taughtAt": 1790930580000
+  },
+  "physics/m3/3-4-materials/3-4-2-mechanical-properties-of-matter-stress-strain-young-modulu": {
+   "stage": 4,
+   "at": 1791822480000,
+   "taughtAt": 1790935740000,
+   "rag": "amber",
+   "reviewedAt": 1791822480000
+  },
+  "maths/pure/y1-equations-inequalities/linear-inequalities": {
+   "stage": 3,
+   "at": 1791924240000,
+   "taughtAt": 1791194340000,
+   "rag": "amber",
+   "reviewedAt": 1791924240000
+  },
+  "further/cp1/series/sums-of-natural-numbers": {
+   "stage": 4,
+   "at": 1792008600000,
+   "taughtAt": 1791205440000,
+   "rag": "amber",
+   "reviewedAt": 1792008600000
+  },
+  "physics/m2/2-3-scalars-vectors/resolving-vectors-into-components": {
+   "stage": 3,
+   "at": 1791907800000,
+   "taughtAt": 1791190260000,
+   "rag": "green",
+   "reviewedAt": 1791740820000
+  },
+  "physics/m3/3-5-momentum/3-5-1-newton-s-laws-of-motion-momentum-f-p-t-impulse": {
+   "stage": 4,
+   "at": 1791738720000,
+   "taughtAt": 1791207120000,
+   "rag": "green",
+   "reviewedAt": 1791491340000
+  },
+  "maths/stats/y1-location-spread/measures-of-central-tendency": {
+   "stage": 4,
+   "at": 1791821580000,
+   "taughtAt": 1791293100000,
+   "rag": "amber",
+   "reviewedAt": 1791570060000
+  },
+  "further/cp1/series/sums-of-squares-and-cubes": {
+   "stage": 3,
+   "at": 1792093920000,
+   "taughtAt": 1791274680000,
+   "rag": "amber",
+   "reviewedAt": 1792093920000
+  },
+  "further/d1/algorithms/bin-packing-algorithms": {
+   "stage": 4,
+   "at": 1792011240000,
+   "taughtAt": 1791288660000,
+   "rag": "green",
+   "reviewedAt": 1791743340000
+  },
+  "physics/m3/3-5-momentum/3-5-2-collisions-conservation-of-momentum-elastic-and-inelastic": {
+   "stage": 4,
+   "at": 1792004520000,
+   "taughtAt": 1791283200000,
+   "rag": "amber",
+   "reviewedAt": 1792004520000
+  },
+  "maths/pure/y1-equations-inequalities/quadratic-inequalities": {
+   "stage": 4,
+   "at": 1792002480000,
+   "taughtAt": 1791362640000,
+   "rag": "amber",
+   "reviewedAt": 1791572460000
+  },
+  "maths/stats/y1-location-spread/other-measures-of-location": {
+   "stage": 4,
+   "at": 1792089660000,
+   "taughtAt": 1791453660000,
+   "rag": "amber",
+   "reviewedAt": 1791835080000
+  },
+  "maths/mech/y1-constant-acceleration/using-the-suvat-formulae": {
+   "stage": 3,
+   "at": 1792090380000,
+   "taughtAt": 1791461040000,
+   "rag": "amber",
+   "reviewedAt": 1792090380000
+  },
+  "further/d1/algorithms/order-of-an-algorithm": {
+   "stage": 4,
+   "at": 1792080660000,
+   "taughtAt": 1791451860000,
+   "rag": "amber",
+   "reviewedAt": 1791820980000
+  },
+  "physics/m1/1-1-written-practical/1-1-4-evaluation-errors-limitations-improvements": {
+   "stage": 4,
+   "at": 1792083840000,
+   "taughtAt": 1791467640000,
+   "rag": "amber",
+   "reviewedAt": 1792083840000
+  },
+  "maths/pure/y1-equations-inequalities/inequalities-on-graphs": {
+   "stage": 3,
+   "at": 1791995580000,
+   "taughtAt": 1791554220000,
+   "rag": "amber",
+   "reviewedAt": 1791740160000
+  },
+  "maths/mech/y1-constant-acceleration/vertical-motion-under-gravity": {
+   "stage": 4,
+   "at": 1792089300000,
+   "taughtAt": 1791544620000,
+   "rag": "amber",
+   "reviewedAt": 1791735300000
+  },
+  "further/cp1/roots-polynomials/roots-of-a-quadratic-equation": {
+   "stage": 3,
+   "at": 1792091760000,
+   "taughtAt": 1791551400000,
+   "rag": "amber",
+   "reviewedAt": 1792091760000
+  },
+  "maths/pure/y1-equations-inequalities/regions": {
+   "stage": 1,
+   "at": 1791898140000,
+   "taughtAt": 1791898140000
+  },
+  "further/cp1/roots-polynomials/roots-of-a-cubic-equation": {
+   "stage": 3,
+   "at": 1792083180000,
+   "taughtAt": 1791886020000,
+   "rag": "amber",
+   "reviewedAt": 1792083180000
+  },
+  "further/d1/graphs-networks/modelling-with-graphs": {
+   "stage": 1,
+   "at": 1791892320000,
+   "taughtAt": 1791892320000
+  },
+  "maths/pure/y1-graphs-transformations/cubic-graphs": {
+   "stage": 1,
+   "at": 1791968220000,
+   "taughtAt": 1791968220000
+  },
+  "further/cp1/roots-polynomials/roots-of-a-quartic-equation": {
+   "stage": 1,
+   "at": 1791967740000,
+   "taughtAt": 1791967740000
+  },
+  "maths/pure/y1-graphs-transformations/quartic-graphs": {
+   "stage": 1,
+   "at": 1792063680000,
+   "taughtAt": 1792063680000
+  },
+  "further/cp1/roots-polynomials/expressions-relating-to-the-roots-of-a-polynomial": {
+   "stage": 1,
+   "at": 1792057740000,
+   "taughtAt": 1792057740000
+  },
+  "physics/pag/pag-year1/pag-1-mechanics": {
+   "stage": 4,
+   "at": 1790168400000,
+   "taughtAt": 1790168400000
+  }
+ },
+ "custom": {
+  "units": [],
+  "topics": {}
+ },
+ "log": [
+  {
+   "id": "mtn9uxuo57own",
+   "date": "2026-09-04",
+   "subject": "maths",
+   "unit": "maths/pure/y1-algebraic-expressions",
+   "minutes": 30,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1788545580000
+  },
+  {
+   "id": "mtnb6itcl81d3",
+   "date": "2026-09-04",
+   "subject": "physics",
+   "unit": "physics/m3/3-1-motion",
+   "minutes": 30,
+   "kind": "Review",
+   "note": "Redid questions I got wrong last week",
+   "at": 1788547800000
+  },
+  {
+   "id": "mtooas80xvz6l",
+   "date": "2026-09-05",
+   "subject": "physics",
+   "unit": "physics/m2/2-1-quantities-units",
+   "minutes": 30,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1788630300000
+  },
+  {
+   "id": "mtor33c07vs49",
+   "date": "2026-09-05",
+   "subject": "maths",
+   "unit": "maths/stats/y1-data-collection",
+   "minutes": 20,
+   "kind": "Questions",
+   "note": "Textbook 3F, odd numbers",
+   "at": 1788634980000
+  },
+  {
+   "id": "mtq0gbmoixe8a",
+   "date": "2026-09-06",
+   "subject": "physics",
+   "unit": "physics/m2/2-1-quantities-units",
+   "minutes": 20,
+   "kind": "Notes",
+   "note": "Made a summary sheet",
+   "at": 1788711180000
+  },
+  {
+   "id": "mtq3hmtcoaest",
+   "date": "2026-09-06",
+   "subject": "maths",
+   "unit": "maths/mech/y1-modelling",
+   "minutes": 75,
+   "kind": "Notes",
+   "note": "Notes from the textbook worked examples",
+   "at": 1788716280000
+  },
+  {
+   "id": "mtrklxeojbemv",
+   "date": "2026-09-07",
+   "subject": "maths",
+   "unit": "maths/pure/y1-algebraic-expressions",
+   "minutes": 45,
+   "kind": "Review",
+   "note": "Reviewed the red topics",
+   "at": 1788805500000
+  },
+  {
+   "id": "mtsy0h6ohd6wx",
+   "date": "2026-09-08",
+   "subject": "maths",
+   "unit": "maths/pure/y1-algebraic-expressions",
+   "minutes": 60,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1788888480000
+  },
+  {
+   "id": "mtt3fy809nt6c",
+   "date": "2026-09-08",
+   "subject": "physics",
+   "unit": "physics/m3/3-1-motion",
+   "minutes": 40,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1788897600000
+  },
+  {
+   "id": "mtui0xs07dqwx",
+   "date": "2026-09-09",
+   "subject": "further",
+   "unit": "further/d1/algorithms",
+   "minutes": 60,
+   "kind": "Study session",
+   "note": "Worked through the examples again",
+   "at": 1788982560000
+  },
+  {
+   "id": "mtukrylckeexs",
+   "date": "2026-09-09",
+   "subject": "physics",
+   "unit": "physics/m1/1-1-written-practical",
+   "minutes": 20,
+   "kind": "Flashcards / recall",
+   "note": "Blurted the chapter then checked",
+   "at": 1788987180000
+  },
+  {
+   "id": "mtvpxfxcosz7e",
+   "date": "2026-09-10",
+   "subject": "physics",
+   "unit": "physics/m3/3-1-motion",
+   "minutes": 40,
+   "kind": "Homework",
+   "note": "Homework sheet, all done",
+   "at": 1789056300000
+  },
+  {
+   "id": "mtvt56lcfq0ki",
+   "date": "2026-09-10",
+   "subject": "further",
+   "unit": "further/cp1/complex-numbers",
+   "minutes": 25,
+   "kind": "Flashcards / recall",
+   "note": "Flashcards on the key formulas",
+   "at": 1789061700000
+  },
+  {
+   "id": "mtvxacyo5atl0",
+   "date": "2026-09-10",
+   "subject": "maths",
+   "unit": "maths/mech/y1-modelling",
+   "minutes": 20,
+   "kind": "Homework",
+   "note": "Homework sheet, all done",
+   "at": 1789068660000
+  },
+  {
+   "id": "mtx7sqqoxyr8t",
+   "date": "2026-09-11",
+   "subject": "further",
+   "unit": "further/cp1/complex-numbers",
+   "minutes": 40,
+   "kind": "Notes",
+   "note": "Rewrote class notes into one page",
+   "at": 1789146780000
+  },
+  {
+   "id": "mtxdssiok12l7",
+   "date": "2026-09-11",
+   "subject": "physics",
+   "unit": "physics/m3/3-2-forces",
+   "minutes": 60,
+   "kind": "Homework",
+   "note": "Homework sheet, all done",
+   "at": 1789156860000
+  },
+  {
+   "id": "mtxfh8g0iezqu",
+   "date": "2026-09-11",
+   "subject": "maths",
+   "unit": "maths/mech/y1-constant-acceleration",
+   "minutes": 75,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1789159680000
+  },
+  {
+   "id": "mtymyb1c62uab",
+   "date": "2026-09-12",
+   "subject": "maths",
+   "unit": "maths/mech/y1-constant-acceleration",
+   "minutes": 45,
+   "kind": "Notes",
+   "note": "Rewrote class notes into one page",
+   "at": 1789232700000
+  },
+  {
+   "id": "mtynb6004ur2s",
+   "date": "2026-09-12",
+   "subject": "physics",
+   "unit": "physics/m1/1-1-written-practical",
+   "minutes": 25,
+   "kind": "Questions",
+   "note": "Exercise 7D mixed questions",
+   "at": 1789233300000
+  },
+  {
+   "id": "mtyrk79ct49x9",
+   "date": "2026-09-12",
+   "subject": "further",
+   "unit": "further/cp1/complex-numbers",
+   "minutes": 45,
+   "kind": "Notes",
+   "note": "Notes from the textbook worked examples",
+   "at": 1789240440000
+  },
+  {
+   "id": "mu0200g0p2ctw",
+   "date": "2026-09-13",
+   "subject": "physics",
+   "unit": "physics/m3/3-1-motion",
+   "minutes": 90,
+   "kind": "Homework",
+   "note": "Set homework",
+   "at": 1789318440000
+  },
+  {
+   "id": "mu05tm5cyficg",
+   "date": "2026-09-13",
+   "subject": "further",
+   "unit": "further/d1/algorithms",
+   "minutes": 45,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1789324860000
+  },
+  {
+   "id": "mu07yrxcbntwm",
+   "date": "2026-09-13",
+   "subject": "maths",
+   "unit": "maths/mech/y1-constant-acceleration",
+   "minutes": 30,
+   "kind": "Review",
+   "note": "Reviewed the red topics",
+   "at": 1789328460000
+  },
+  {
+   "id": "mu1l0gqoxhrul",
+   "date": "2026-09-14",
+   "subject": "maths",
+   "unit": "maths/mech/y1-modelling",
+   "minutes": 60,
+   "kind": "Review",
+   "note": "Redid questions I got wrong last week",
+   "at": 1789410840000
+  },
+  {
+   "id": "mu1lnm2ox52cz",
+   "date": "2026-09-14",
+   "subject": "further",
+   "unit": "further/cp1/complex-numbers",
+   "minutes": 90,
+   "kind": "Notes",
+   "note": "Made a summary sheet",
+   "at": 1789411920000
+  },
+  {
+   "id": "mu2wzko0z34ub",
+   "date": "2026-09-15",
+   "subject": "maths",
+   "unit": "maths/mech/y1-modelling",
+   "minutes": 45,
+   "kind": "Questions",
+   "note": "Exam-style questions from the end of the chapter",
+   "at": 1789491420000
+  },
+  {
+   "id": "mu319w80k8lsz",
+   "date": "2026-09-15",
+   "subject": "further",
+   "unit": "further/cp1/complex-numbers",
+   "minutes": 75,
+   "kind": "Questions",
+   "note": "Exercise 2G mixed questions",
+   "at": 1789498620000
+  },
+  {
+   "id": "mu4bcug0u8to9",
+   "date": "2026-09-16",
+   "subject": "maths",
+   "unit": "maths/pure/y1-quadratics",
+   "minutes": 40,
+   "kind": "Flashcards / recall",
+   "note": "Blurted the chapter then checked",
+   "at": 1789576020000
+  },
+  {
+   "id": "mu4k2mqoul7pq",
+   "date": "2026-09-16",
+   "subject": "physics",
+   "unit": "physics/m1/1-1-written-practical",
+   "minutes": 25,
+   "kind": "Questions",
+   "note": "Exam-style questions from the end of the chapter",
+   "at": 1789590660000
+  },
+  {
+   "id": "mu4ke7eojlrvi",
+   "date": "2026-09-16",
+   "subject": "further",
+   "unit": "further/d1/algorithms",
+   "minutes": 30,
+   "kind": "Review",
+   "note": "Reviewed the red topics",
+   "at": 1789591200000
+  },
+  {
+   "id": "mu5sz56of6qky",
+   "date": "2026-09-17",
+   "subject": "further",
+   "unit": "further/d1/algorithms",
+   "minutes": 75,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1789666080000
+  },
+  {
+   "id": "mu5wjqtcadafu",
+   "date": "2026-09-17",
+   "subject": "physics",
+   "unit": "physics/m3/3-2-forces",
+   "minutes": 40,
+   "kind": "Homework",
+   "note": "Homework sheet, all done",
+   "at": 1789672080000
+  },
+  {
+   "id": "mu5xowaoyuhr9",
+   "date": "2026-09-17",
+   "subject": "maths",
+   "unit": "maths/mech/y1-modelling",
+   "minutes": 40,
+   "kind": "Notes",
+   "note": "Rewrote class notes into one page",
+   "at": 1789674000000
+  },
+  {
+   "id": "mu75g99cvop05",
+   "date": "2026-09-18",
+   "subject": "maths",
+   "unit": "maths/mech/y1-constant-acceleration",
+   "minutes": 60,
+   "kind": "Questions",
+   "note": "Textbook 3C, odd numbers",
+   "at": 1789747500000
+  },
+  {
+   "id": "mu78pa80qjxwe",
+   "date": "2026-09-18",
+   "subject": "physics",
+   "unit": "physics/m2/2-2-measurements",
+   "minutes": 30,
+   "kind": "Homework",
+   "note": "Homework sheet, all done",
+   "at": 1789752960000
+  },
+  {
+   "id": "mu7fchc0mm0dm",
+   "date": "2026-09-18",
+   "subject": "further",
+   "unit": "further/cp1/complex-numbers",
+   "minutes": 90,
+   "kind": "Questions",
+   "note": "Textbook 5B, odd numbers",
+   "at": 1789764120000
+  },
+  {
+   "id": "mu8m6elc6fom8",
+   "date": "2026-09-19",
+   "subject": "further",
+   "unit": "further/cp1/complex-numbers",
+   "minutes": 75,
+   "kind": "Questions",
+   "note": "Exam-style questions from the end of the chapter",
+   "at": 1789836060000
+  },
+  {
+   "id": "mu8pn5c0y2apv",
+   "date": "2026-09-19",
+   "subject": "physics",
+   "unit": "physics/m3/3-2-forces",
+   "minutes": 30,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1789841880000
+  },
+  {
+   "id": "mu8ve71cjixas",
+   "date": "2026-09-19",
+   "subject": "maths",
+   "unit": "maths/pure/y1-quadratics",
+   "minutes": 60,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1789851540000
+  },
+  {
+   "id": "mua64alcsh1y1",
+   "date": "2026-09-20",
+   "subject": "maths",
+   "unit": "maths/mech/y1-modelling",
+   "minutes": 20,
+   "kind": "Study session",
+   "note": "Worked through the examples again",
+   "at": 1789930020000
+  },
+  {
+   "id": "mua81qlcwe9ks",
+   "date": "2026-09-20",
+   "subject": "physics",
+   "unit": "physics/m2/2-2-measurements",
+   "minutes": 25,
+   "kind": "Notes",
+   "note": "Notes from the textbook worked examples",
+   "at": 1789933260000
+  },
+  {
+   "id": "mubh9tpcymx9r",
+   "date": "2026-09-21",
+   "subject": "physics",
+   "unit": "physics/m3/3-3-work-energy",
+   "minutes": 75,
+   "kind": "Homework",
+   "note": "Homework sheet, all done",
+   "at": 1790009220000
+  },
+  {
+   "id": "mubiwzc0wjot7",
+   "date": "2026-09-21",
+   "subject": "maths",
+   "unit": "maths/pure/y1-quadratics",
+   "minutes": 90,
+   "kind": "Review",
+   "note": "Reviewed the red topics",
+   "at": 1790011980000
+  },
+  {
+   "id": "mubpk6g07el66",
+   "date": "2026-09-21",
+   "subject": "further",
+   "unit": "further/cp1/argand-diagrams",
+   "minutes": 60,
+   "kind": "Homework",
+   "note": "Set homework",
+   "at": 1790023140000
+  },
+  {
+   "id": "mucxj96o3ijnn",
+   "date": "2026-09-22",
+   "subject": "further",
+   "unit": "further/cp1/complex-numbers",
+   "minutes": 60,
+   "kind": "Homework",
+   "note": "Homework sheet, all done",
+   "at": 1790097000000
+  },
+  {
+   "id": "mucztk5cgao6x",
+   "date": "2026-09-22",
+   "subject": "physics",
+   "unit": "physics/m2/2-2-measurements",
+   "minutes": 40,
+   "kind": "Flashcards / recall",
+   "note": "Blurted the chapter then checked",
+   "at": 1790100840000
+  },
+  {
+   "id": "mud5abhcqhkwl",
+   "date": "2026-09-22",
+   "subject": "maths",
+   "unit": "maths/mech/y1-constant-acceleration",
+   "minutes": 40,
+   "kind": "Review",
+   "note": "Reviewed the red topics",
+   "at": 1790110020000
+  },
+  {
+   "id": "mued6tmo53knn",
+   "date": "2026-09-23",
+   "subject": "further",
+   "unit": "further/cp1/complex-numbers",
+   "minutes": 45,
+   "kind": "Questions",
+   "note": "Exam-style questions from the end of the chapter",
+   "at": 1790183760000
+  },
+  {
+   "id": "mued83xcwjtfu",
+   "date": "2026-09-23",
+   "subject": "physics",
+   "unit": "physics/m3/3-2-forces",
+   "minutes": 60,
+   "kind": "Homework",
+   "note": "Set homework",
+   "at": 1790183820000
+  },
+  {
+   "id": "mueg6uioaufj7",
+   "date": "2026-09-23",
+   "subject": "maths",
+   "unit": "maths/pure/y1-quadratics",
+   "minutes": 60,
+   "kind": "Homework",
+   "note": "Set homework",
+   "at": 1790188800000
+  },
+  {
+   "id": "mufsqj6o1gg9r",
+   "date": "2026-09-24",
+   "subject": "further",
+   "unit": "further/d1/algorithms",
+   "minutes": 90,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1790270340000
+  },
+  {
+   "id": "mufxufk0zbzlu",
+   "date": "2026-09-24",
+   "subject": "maths",
+   "unit": "maths/pure/y1-quadratics",
+   "minutes": 20,
+   "kind": "Questions",
+   "note": "Textbook 3F, odd numbers",
+   "at": 1790278920000
+  },
+  {
+   "id": "mufygalcdzt72",
+   "date": "2026-09-24",
+   "subject": "physics",
+   "unit": "physics/m2/2-2-measurements",
+   "minutes": 60,
+   "kind": "Questions",
+   "note": "Textbook 7E, odd numbers",
+   "at": 1790279940000
+  },
+  {
+   "id": "muhbn4lcbcn8j",
+   "date": "2026-09-25",
+   "subject": "maths",
+   "unit": "maths/mech/y1-modelling",
+   "minutes": 45,
+   "kind": "Study session",
+   "note": "Worked through the examples again",
+   "at": 1790362560000
+  },
+  {
+   "id": "muhdgppcqedk3",
+   "date": "2026-09-25",
+   "subject": "physics",
+   "unit": "physics/m3/3-3-work-energy",
+   "minutes": 75,
+   "kind": "Review",
+   "note": "Reviewed the red topics",
+   "at": 1790365620000
+  },
+  {
+   "id": "muhflvhcqutvm",
+   "date": "2026-09-25",
+   "subject": "further",
+   "unit": "further/cp1/complex-numbers",
+   "minutes": 30,
+   "kind": "Flashcards / recall",
+   "note": "Blurted the chapter then checked",
+   "at": 1790369220000
+  },
+  {
+   "id": "muikxsaohpeq2",
+   "date": "2026-09-26",
+   "subject": "maths",
+   "unit": "maths/pure/y1-quadratics",
+   "minutes": 20,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1790438640000
+  },
+  {
+   "id": "muiqq4ao591kf",
+   "date": "2026-09-26",
+   "subject": "further",
+   "unit": "further/cp1/argand-diagrams",
+   "minutes": 40,
+   "kind": "Notes",
+   "note": "Made a summary sheet",
+   "at": 1790448360000
+  },
+  {
+   "id": "muiv9fxc1xxf8",
+   "date": "2026-09-26",
+   "subject": "physics",
+   "unit": "physics/m3/3-2-forces",
+   "minutes": 40,
+   "kind": "Study session",
+   "note": "Went back over what we did in class",
+   "at": 1790455980000
+  },
+  {
+   "id": "muk73eo0561i5",
+   "date": "2026-09-27",
+   "subject": "physics",
+   "unit": "physics/m2/2-2-measurements",
+   "minutes": 25,
+   "kind": "Notes",
+   "note": "Made a summary sheet",
+   "at": 1790536320000
+  },
+  {
+   "id": "muk85zk0vfp6p",
+   "date": "2026-09-27",
+   "subject": "maths",
+   "unit": "maths/mech/y1-modelling",
+   "minutes": 60,
+   "kind": "Review",
+   "note": "Reviewed the red topics",
+   "at": 1790538120000
+  },
+  {
+   "id": "muk8g9xcptkwp",
+   "date": "2026-09-27",
+   "subject": "further",
+   "unit": "further/cp1/complex-numbers",
+   "minutes": 75,
+   "kind": "Notes",
+   "note": "Notes from the textbook worked examples",
+   "at": 1790538600000
+  },
+  {
+   "id": "muljyo002n8km",
+   "date": "2026-09-28",
+   "subject": "maths",
+   "unit": "maths/pure/y1-quadratics",
+   "minutes": 60,
+   "kind": "Notes",
+   "note": "Made a summary sheet",
+   "at": 1790618400000
+  },
+  {
+   "id": "mulokk80n1gn1",
+   "date": "2026-09-28",
+   "subject": "further",
+   "unit": "further/cp1/complex-numbers",
+   "minutes": 60,
+   "kind": "Review",
+   "note": "Reviewed the red topics",
+   "at": 1790626140000
+  },
+  {
+   "id": "mulpaa5cvasim",
+   "date": "2026-09-28",
+   "subject": "physics",
+   "unit": "physics/m2/2-2-measurements",
+   "minutes": 45,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1790627340000
+  },
+  {
+   "id": "mumym85cexgdc",
+   "date": "2026-09-29",
+   "subject": "physics",
+   "unit": "physics/m2/2-2-measurements",
+   "minutes": 45,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1790703480000
+  },
+  {
+   "id": "mumz836o7s905",
+   "date": "2026-09-29",
+   "subject": "further",
+   "unit": "further/cp1/argand-diagrams",
+   "minutes": 45,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1790704500000
+  },
+  {
+   "id": "mun384dcd96wm",
+   "date": "2026-09-29",
+   "subject": "maths",
+   "unit": "maths/pure/y1-equations-inequalities",
+   "minutes": 25,
+   "kind": "Questions",
+   "note": "Exam-style questions from the end of the chapter",
+   "at": 1790711220000
+  },
+  {
+   "id": "muobucg09dh1y",
+   "date": "2026-09-30",
+   "subject": "further",
+   "unit": "further/cp1/argand-diagrams",
+   "minutes": 60,
+   "kind": "Questions",
+   "note": "Exercise 8F mixed questions",
+   "at": 1790786160000
+  },
+  {
+   "id": "muof5y00g5vul",
+   "date": "2026-09-30",
+   "subject": "maths",
+   "unit": "maths/pure/y1-quadratics",
+   "minutes": 60,
+   "kind": "Questions",
+   "note": "Exam-style questions from the end of the chapter",
+   "at": 1790791740000
+  },
+  {
+   "id": "muoj4ow048qf4",
+   "date": "2026-09-30",
+   "subject": "physics",
+   "unit": "physics/m2/2-2-measurements",
+   "minutes": 40,
+   "kind": "Questions",
+   "note": "Exam-style questions from the end of the chapter",
+   "at": 1790798400000
+  },
+  {
+   "id": "muptki2o7to99",
+   "date": "2026-10-01",
+   "subject": "physics",
+   "unit": "physics/m3/3-3-work-energy",
+   "minutes": 30,
+   "kind": "Questions",
+   "note": "Exercise 6A mixed questions",
+   "at": 1790876400000
+  },
+  {
+   "id": "mupxpog0bxm1b",
+   "date": "2026-10-01",
+   "subject": "maths",
+   "unit": "maths/pure/y1-quadratics",
+   "minutes": 75,
+   "kind": "Review",
+   "note": "Redid questions I got wrong last week",
+   "at": 1790883360000
+  },
+  {
+   "id": "mupzyp400er97",
+   "date": "2026-10-01",
+   "subject": "further",
+   "unit": "further/cp1/complex-numbers",
+   "minutes": 60,
+   "kind": "Homework",
+   "note": "Homework sheet, all done",
+   "at": 1790887140000
+  },
+  {
+   "id": "mur5m6lc9b417",
+   "date": "2026-10-02",
+   "subject": "further",
+   "unit": "further/cp1/argand-diagrams",
+   "minutes": 75,
+   "kind": "Notes",
+   "note": "Made a summary sheet",
+   "at": 1790957100000
+  },
+  {
+   "id": "murbm8dccr9jo",
+   "date": "2026-10-02",
+   "subject": "maths",
+   "unit": "maths/mech/y1-constant-acceleration",
+   "minutes": 30,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1790967180000
+  },
+  {
+   "id": "murbm8dczwpxz",
+   "date": "2026-10-02",
+   "subject": "physics",
+   "unit": "physics/m2/2-3-scalars-vectors",
+   "minutes": 60,
+   "kind": "Questions",
+   "note": "Exam-style questions from the end of the chapter",
+   "at": 1790967180000
+  },
+  {
+   "id": "musoqhs04ruzv",
+   "date": "2026-10-03",
+   "subject": "physics",
+   "unit": "physics/m3/3-4-materials",
+   "minutes": 40,
+   "kind": "Flashcards / recall",
+   "note": "Blurted the chapter then checked",
+   "at": 1791049680000
+  },
+  {
+   "id": "muu517k011xwf",
+   "date": "2026-10-04",
+   "subject": "further",
+   "unit": "further/cp1/complex-numbers",
+   "minutes": 30,
+   "kind": "Homework",
+   "note": "Homework sheet, all done",
+   "at": 1791137520000
+  },
+  {
+   "id": "muu68xmo5ni8j",
+   "date": "2026-10-04",
+   "subject": "maths",
+   "unit": "maths/pure/y1-quadratics",
+   "minutes": 90,
+   "kind": "Study session",
+   "note": "Went back over what we did in class",
+   "at": 1791139560000
+  },
+  {
+   "id": "muu953mo8auwq",
+   "date": "2026-10-04",
+   "subject": "physics",
+   "unit": "physics/m2/2-3-scalars-vectors",
+   "minutes": 45,
+   "kind": "Notes",
+   "note": "Rewrote class notes into one page",
+   "at": 1791144420000
+  },
+  {
+   "id": "muvg5gdcq4507",
+   "date": "2026-10-05",
+   "subject": "physics",
+   "unit": "physics/m3/3-5-momentum",
+   "minutes": 45,
+   "kind": "Homework",
+   "note": "Homework sheet, all done",
+   "at": 1791216660000
+  },
+  {
+   "id": "muvm5i5ca0qot",
+   "date": "2026-10-05",
+   "subject": "maths",
+   "unit": "maths/pure/y1-quadratics",
+   "minutes": 45,
+   "kind": "Questions",
+   "note": "Exam-style questions from the end of the chapter",
+   "at": 1791226740000
+  },
+  {
+   "id": "mux0779cgae0t",
+   "date": "2026-10-06",
+   "subject": "further",
+   "unit": "further/d1/algorithms",
+   "minutes": 75,
+   "kind": "Questions",
+   "note": "Exercise 6G mixed questions",
+   "at": 1791310800000
+  },
+  {
+   "id": "mux222o00hj4p",
+   "date": "2026-10-06",
+   "subject": "maths",
+   "unit": "maths/pure/y1-quadratics",
+   "minutes": 30,
+   "kind": "Notes",
+   "note": "Made a summary sheet",
+   "at": 1791313920000
+  },
+  {
+   "id": "mux2dnc07kml3",
+   "date": "2026-10-06",
+   "subject": "physics",
+   "unit": "physics/m3/3-4-materials",
+   "minutes": 30,
+   "kind": "Notes",
+   "note": "Rewrote class notes into one page",
+   "at": 1791314460000
+  },
+  {
+   "id": "muykodpcekdja",
+   "date": "2026-10-07",
+   "subject": "physics",
+   "unit": "physics/m3/3-5-momentum",
+   "minutes": 25,
+   "kind": "Questions",
+   "note": "Textbook 7A, odd numbers",
+   "at": 1791405660000
+  },
+  {
+   "id": "muylbj1cuv58g",
+   "date": "2026-10-07",
+   "subject": "maths",
+   "unit": "maths/pure/y1-equations-inequalities",
+   "minutes": 60,
+   "kind": "Notes",
+   "note": "Notes from the textbook worked examples",
+   "at": 1791406740000
+  },
+  {
+   "id": "muzsngg0xmxyl",
+   "date": "2026-10-08",
+   "subject": "further",
+   "unit": "further/d1/algorithms",
+   "minutes": 40,
+   "kind": "Notes",
+   "note": "Notes from the textbook worked examples",
+   "at": 1791479520000
+  },
+  {
+   "id": "muzxwi00sw9ll",
+   "date": "2026-10-08",
+   "subject": "maths",
+   "unit": "maths/pure/y1-quadratics",
+   "minutes": 60,
+   "kind": "Flashcards / recall",
+   "note": "Flashcards on the key formulas",
+   "at": 1791488340000
+  },
+  {
+   "id": "muzzfsqowo3j0",
+   "date": "2026-10-08",
+   "subject": "physics",
+   "unit": "physics/m3/3-4-materials",
+   "minutes": 60,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1791490920000
+  },
+  {
+   "id": "mv16qfuo3rlxb",
+   "date": "2026-10-09",
+   "subject": "further",
+   "unit": "further/cp1/series",
+   "minutes": 60,
+   "kind": "Flashcards / recall",
+   "note": "Flashcards on the key formulas",
+   "at": 1791563640000
+  },
+  {
+   "id": "mv19rr1c64uk3",
+   "date": "2026-10-09",
+   "subject": "maths",
+   "unit": "maths/stats/y1-location-spread",
+   "minutes": 30,
+   "kind": "Notes",
+   "note": "Rewrote class notes into one page",
+   "at": 1791568740000
+  },
+  {
+   "id": "mv1cewyovegqj",
+   "date": "2026-10-09",
+   "subject": "physics",
+   "unit": "physics/m3/3-4-materials",
+   "minutes": 60,
+   "kind": "Homework",
+   "note": "Homework sheet, all done",
+   "at": 1791573180000
+  },
+  {
+   "id": "mv2o2g806agw3",
+   "date": "2026-10-10",
+   "subject": "physics",
+   "unit": "physics/m3/3-5-momentum",
+   "minutes": 20,
+   "kind": "Study session",
+   "note": "Went back over what we did in class",
+   "at": 1791653220000
+  },
+  {
+   "id": "mv2q8waot8pmu",
+   "date": "2026-10-10",
+   "subject": "further",
+   "unit": "further/cp1/argand-diagrams",
+   "minutes": 60,
+   "kind": "Study session",
+   "note": "Went back over what we did in class",
+   "at": 1791656880000
+  },
+  {
+   "id": "mv2sthmoctkcm",
+   "date": "2026-10-10",
+   "subject": "maths",
+   "unit": "maths/stats/y1-location-spread",
+   "minutes": 25,
+   "kind": "Questions",
+   "note": "Exercise 4E mixed questions",
+   "at": 1791661200000
+  },
+  {
+   "id": "mv45rbk0kndn5",
+   "date": "2026-10-11",
+   "subject": "maths",
+   "unit": "maths/pure/y1-equations-inequalities",
+   "minutes": 90,
+   "kind": "Review",
+   "note": "Redid questions I got wrong last week",
+   "at": 1791743400000
+  },
+  {
+   "id": "mv46wh1cwzrf0",
+   "date": "2026-10-11",
+   "subject": "further",
+   "unit": "further/cp1/argand-diagrams",
+   "minutes": 90,
+   "kind": "Notes",
+   "note": "Notes from the textbook worked examples",
+   "at": 1791745320000
+  },
+  {
+   "id": "mv48ehhc4rjfq",
+   "date": "2026-10-11",
+   "subject": "physics",
+   "unit": "physics/m3/3-4-materials",
+   "minutes": 75,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1791747840000
+  },
+  {
+   "id": "mv5gwuo0l8965",
+   "date": "2026-10-12",
+   "subject": "maths",
+   "unit": "maths/stats/y1-location-spread",
+   "minutes": 40,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1791822600000
+  },
+  {
+   "id": "mv5hhfeot6ptw",
+   "date": "2026-10-12",
+   "subject": "further",
+   "unit": "further/cp1/argand-diagrams",
+   "minutes": 60,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1791823560000
+  },
+  {
+   "id": "mv5pmmyomjedn",
+   "date": "2026-10-12",
+   "subject": "physics",
+   "unit": "physics/m2/2-3-scalars-vectors",
+   "minutes": 40,
+   "kind": "Flashcards / recall",
+   "note": "Blurted the chapter then checked",
+   "at": 1791837240000
+  },
+  {
+   "id": "mv72qwdciv9p6",
+   "date": "2026-10-13",
+   "subject": "further",
+   "unit": "further/cp1/roots-polynomials",
+   "minutes": 60,
+   "kind": "Notes",
+   "note": "Made a summary sheet",
+   "at": 1791919740000
+  },
+  {
+   "id": "mv74ocdclaeo6",
+   "date": "2026-10-13",
+   "subject": "physics",
+   "unit": "physics/m3/3-4-materials",
+   "minutes": 90,
+   "kind": "Past paper",
+   "note": "Topic questions from past papers",
+   "at": 1791922980000
+  },
+  {
+   "id": "mv74qwyozki9w",
+   "date": "2026-10-13",
+   "subject": "maths",
+   "unit": "maths/stats/y1-location-spread",
+   "minutes": 60,
+   "kind": "Review",
+   "note": "Redid questions I got wrong last week",
+   "at": 1791923100000
+  },
+  {
+   "id": "mv8cd4qoxio6u",
+   "date": "2026-10-14",
+   "subject": "maths",
+   "unit": "maths/pure/y1-equations-inequalities",
+   "minutes": 40,
+   "kind": "Notes",
+   "note": "Rewrote class notes into one page",
+   "at": 1791996360000
+  },
+  {
+   "id": "mv8hfqtchtagu",
+   "date": "2026-10-14",
+   "subject": "physics",
+   "unit": "physics/m2/2-3-scalars-vectors",
+   "minutes": 45,
+   "kind": "Questions",
+   "note": "Exercise 4B mixed questions",
+   "at": 1792004880000
+  },
+  {
+   "id": "mv8jwh9cagh45",
+   "date": "2026-10-14",
+   "subject": "further",
+   "unit": "further/cp1/roots-polynomials",
+   "minutes": 20,
+   "kind": "Study session",
+   "note": "Worked through the examples again",
+   "at": 1792009020000
+  },
+  {
+   "id": "mv9sp4tc0davd",
+   "date": "2026-10-15",
+   "subject": "further",
+   "unit": "further/d1/graphs-networks",
+   "minutes": 30,
+   "kind": "Notes",
+   "note": "Notes from the textbook worked examples",
+   "at": 1792084260000
+  },
+  {
+   "id": "mv9zireosptt4",
+   "date": "2026-10-15",
+   "subject": "maths",
+   "unit": "maths/pure/y1-equations-inequalities",
+   "minutes": 75,
+   "kind": "Review",
+   "note": "Redid questions I got wrong last week",
+   "at": 1792095720000
+  },
+  {
+   "id": "mva03c5czg75t",
+   "date": "2026-10-15",
+   "subject": "physics",
+   "unit": "physics/m2/2-3-scalars-vectors",
+   "minutes": 30,
+   "kind": "Flashcards / recall",
+   "note": "Blurted the chapter then checked",
+   "at": 1792096680000
+  }
+ ],
+ "scores": [
+  {
+   "id": "mtwuh280slyz5",
+   "date": "2026-09-11",
+   "subject": "maths",
+   "unit": "maths/mech/y1-modelling",
+   "title": "End of chapter test",
+   "kind": "End-of-chapter test",
+   "got": 24,
+   "max": 40,
+   "at": 1789124400000
+  },
+  {
+   "id": "mu6uk0w0tawpa",
+   "date": "2026-09-18",
+   "subject": "maths",
+   "unit": "maths/pure/y1-algebraic-expressions",
+   "title": "End of chapter test",
+   "kind": "End-of-chapter test",
+   "got": 18,
+   "max": 30,
+   "at": 1789729200000
+  },
+  {
+   "id": "mu6uk0w041i85",
+   "date": "2026-09-18",
+   "subject": "further",
+   "unit": "further/cp1/complex-numbers",
+   "title": "End of chapter test",
+   "kind": "End-of-chapter test",
+   "got": 40,
+   "max": 50,
+   "at": 1789729200000
+  },
+  {
+   "id": "muqupy80ngl9y",
+   "date": "2026-10-02",
+   "subject": "maths",
+   "unit": "maths/stats/y1-data-collection",
+   "title": "End of chapter test",
+   "kind": "End-of-chapter test",
+   "got": 44,
+   "max": 50,
+   "at": 1790938800000
+  },
+  {
+   "id": "muqupy80uwugo",
+   "date": "2026-10-02",
+   "subject": "further",
+   "unit": "further/cp1/argand-diagrams",
+   "title": "End of chapter test",
+   "kind": "End-of-chapter test",
+   "got": 25,
+   "max": 30,
+   "at": 1790938800000
+  },
+  {
+   "id": "muqupy80wjdl3",
+   "date": "2026-10-02",
+   "subject": "physics",
+   "unit": "physics/m2/2-1-quantities-units",
+   "title": "End of chapter test",
+   "kind": "End-of-chapter test",
+   "got": 21,
+   "max": 30,
+   "at": 1790938800000
+  },
+  {
+   "id": "mv0usww0i8amj",
+   "date": "2026-10-09",
+   "subject": "maths",
+   "unit": "maths/mech/y1-constant-acceleration",
+   "title": "End of chapter test",
+   "kind": "End-of-chapter test",
+   "got": 25,
+   "max": 40,
+   "at": 1791543600000
+  },
+  {
+   "id": "mv0usww01t8l2",
+   "date": "2026-10-09",
+   "subject": "further",
+   "unit": "further/d1/algorithms",
+   "title": "End of chapter test",
+   "kind": "End-of-chapter test",
+   "got": 27,
+   "max": 40,
+   "at": 1791543600000
+  },
+  {
+   "id": "mv0usww0txoer",
+   "date": "2026-10-09",
+   "subject": "physics",
+   "unit": "physics/m3/3-1-motion",
+   "title": "End of chapter test",
+   "kind": "End-of-chapter test",
+   "got": 27,
+   "max": 40,
+   "at": 1791543600000
+  }
+ ],
+ "trend": [
+  {
+   "d": "2026-09-03",
+   "s": {
+    "maths": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "further": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "physics": [
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "d": "2026-09-04",
+   "s": {
+    "maths": [
+     1,
+     0,
+     0,
+     100
+    ],
+    "further": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "physics": [
+     1,
+     0,
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "d": "2026-09-05",
+   "s": {
+    "maths": [
+     1,
+     0,
+     1,
+     33
+    ],
+    "further": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "physics": [
+     2,
+     0,
+     1,
+     100
+    ]
+   }
+  },
+  {
+   "d": "2026-09-06",
+   "s": {
+    "maths": [
+     1,
+     0,
+     1,
+     33
+    ],
+    "further": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "physics": [
+     2,
+     0,
+     1,
+     100
+    ]
+   }
+  },
+  {
+   "d": "2026-09-07",
+   "s": {
+    "maths": [
+     2,
+     0,
+     1,
+     33
+    ],
+    "further": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "physics": [
+     2,
+     0,
+     1,
+     100
+    ]
+   }
+  },
+  {
+   "d": "2026-09-08",
+   "s": {
+    "maths": [
+     2,
+     0,
+     1,
+     33
+    ],
+    "further": [
+     1,
+     0,
+     0,
+     0
+    ],
+    "physics": [
+     4,
+     0,
+     3,
+     33
+    ]
+   }
+  },
+  {
+   "d": "2026-09-09",
+   "s": {
+    "maths": [
+     3,
+     0,
+     2,
+     33
+    ],
+    "further": [
+     1,
+     0,
+     1,
+     100
+    ],
+    "physics": [
+     6,
+     0,
+     3,
+     25
+    ]
+   }
+  },
+  {
+   "d": "2026-09-10",
+   "s": {
+    "maths": [
+     4,
+     0,
+     2,
+     50
+    ],
+    "further": [
+     2,
+     0,
+     1,
+     33
+    ],
+    "physics": [
+     8,
+     0,
+     4,
+     25
+    ]
+   }
+  },
+  {
+   "d": "2026-09-11",
+   "s": {
+    "maths": [
+     5,
+     0,
+     3,
+     43
+    ],
+    "further": [
+     3,
+     0,
+     2,
+     25
+    ],
+    "physics": [
+     9,
+     0,
+     5,
+     40
+    ]
+   }
+  },
+  {
+   "d": "2026-09-12",
+   "s": {
+    "maths": [
+     5,
+     0,
+     3,
+     33
+    ],
+    "further": [
+     3,
+     0,
+     2,
+     25
+    ],
+    "physics": [
+     10,
+     0,
+     6,
+     50
+    ]
+   }
+  },
+  {
+   "d": "2026-09-13",
+   "s": {
+    "maths": [
+     6,
+     0,
+     3,
+     36
+    ],
+    "further": [
+     4,
+     0,
+     2,
+     20
+    ],
+    "physics": [
+     12,
+     0,
+     6,
+     67
+    ]
+   }
+  },
+  {
+   "d": "2026-09-14",
+   "s": {
+    "maths": [
+     7,
+     0,
+     4,
+     31
+    ],
+    "further": [
+     4,
+     0,
+     3,
+     20
+    ],
+    "physics": [
+     12,
+     0,
+     7,
+     67
+    ]
+   }
+  },
+  {
+   "d": "2026-09-15",
+   "s": {
+    "maths": [
+     8,
+     0,
+     4,
+     29
+    ],
+    "further": [
+     5,
+     0,
+     3,
+     17
+    ],
+    "physics": [
+     12,
+     0,
+     7,
+     67
+    ]
+   }
+  },
+  {
+   "d": "2026-09-16",
+   "s": {
+    "maths": [
+     9,
+     0,
+     5,
+     27
+    ],
+    "further": [
+     5,
+     0,
+     3,
+     14
+    ],
+    "physics": [
+     14,
+     0,
+     8,
+     50
+    ]
+   }
+  },
+  {
+   "d": "2026-09-17",
+   "s": {
+    "maths": [
+     10,
+     0,
+     5,
+     25
+    ],
+    "further": [
+     7,
+     0,
+     4,
+     25
+    ],
+    "physics": [
+     16,
+     0,
+     9,
+     50
+    ]
+   }
+  },
+  {
+   "d": "2026-09-18",
+   "s": {
+    "maths": [
+     10,
+     0,
+     6,
+     25
+    ],
+    "further": [
+     8,
+     0,
+     5,
+     25
+    ],
+    "physics": [
+     18,
+     0,
+     10,
+     56
+    ]
+   }
+  },
+  {
+   "d": "2026-09-19",
+   "s": {
+    "maths": [
+     10,
+     0,
+     6,
+     25
+    ],
+    "further": [
+     8,
+     0,
+     5,
+     25
+    ],
+    "physics": [
+     18,
+     0,
+     10,
+     50
+    ]
+   }
+  },
+  {
+   "d": "2026-09-20",
+   "s": {
+    "maths": [
+     11,
+     0,
+     6,
+     25
+    ],
+    "further": [
+     8,
+     0,
+     5,
+     25
+    ],
+    "physics": [
+     20,
+     0,
+     12,
+     42
+    ]
+   }
+  },
+  {
+   "d": "2026-09-21",
+   "s": {
+    "maths": [
+     11,
+     0,
+     6,
+     44
+    ],
+    "further": [
+     10,
+     0,
+     6,
+     44
+    ],
+    "physics": [
+     23,
+     0,
+     13,
+     50
+    ]
+   }
+  },
+  {
+   "d": "2026-09-22",
+   "s": {
+    "maths": [
+     11,
+     0,
+     6,
+     44
+    ],
+    "further": [
+     10,
+     0,
+     6,
+     40
+    ],
+    "physics": [
+     25,
+     0,
+     14,
+     43
+    ]
+   }
+  },
+  {
+   "d": "2026-09-23",
+   "s": {
+    "maths": [
+     11,
+     0,
+     6,
+     44
+    ],
+    "further": [
+     10,
+     0,
+     7,
+     40
+    ],
+    "physics": [
+     27,
+     0,
+     15,
+     40
+    ]
+   }
+  },
+  {
+   "d": "2026-09-24",
+   "s": {
+    "maths": [
+     12,
+     0,
+     7,
+     41
+    ],
+    "further": [
+     12,
+     0,
+     8,
+     36
+    ],
+    "physics": [
+     29,
+     0,
+     16,
+     38
+    ]
+   }
+  },
+  {
+   "d": "2026-09-25",
+   "s": {
+    "maths": [
+     12,
+     0,
+     7,
+     44
+    ],
+    "further": [
+     12,
+     0,
+     8,
+     33
+    ],
+    "physics": [
+     31,
+     0,
+     17,
+     35
+    ]
+   }
+  },
+  {
+   "d": "2026-09-26",
+   "s": {
+    "maths": [
+     13,
+     0,
+     7,
+     45
+    ],
+    "further": [
+     13,
+     0,
+     8,
+     33
+    ],
+    "physics": [
+     32,
+     0,
+     18,
+     35
+    ]
+   }
+  },
+  {
+   "d": "2026-09-27",
+   "s": {
+    "maths": [
+     13,
+     0,
+     7,
+     45
+    ],
+    "further": [
+     13,
+     0,
+     8,
+     33
+    ],
+    "physics": [
+     32,
+     0,
+     18,
+     39
+    ]
+   }
+  },
+  {
+   "d": "2026-09-28",
+   "s": {
+    "maths": [
+     14,
+     0,
+     8,
+     55
+    ],
+    "further": [
+     13,
+     0,
+     8,
+     33
+    ],
+    "physics": [
+     34,
+     0,
+     19,
+     44
+    ]
+   }
+  },
+  {
+   "d": "2026-09-29",
+   "s": {
+    "maths": [
+     14,
+     0,
+     8,
+     55
+    ],
+    "further": [
+     13,
+     0,
+     8,
+     50
+    ],
+    "physics": [
+     36,
+     0,
+     20,
+     47
+    ]
+   }
+  },
+  {
+   "d": "2026-09-30",
+   "s": {
+    "maths": [
+     15,
+     0,
+     8,
+     59
+    ],
+    "further": [
+     13,
+     0,
+     9,
+     58
+    ],
+    "physics": [
+     36,
+     0,
+     21,
+     43
+    ]
+   }
+  },
+  {
+   "d": "2026-10-01",
+   "s": {
+    "maths": [
+     15,
+     0,
+     8,
+     61
+    ],
+    "further": [
+     14,
+     0,
+     9,
+     62
+    ],
+    "physics": [
+     38,
+     0,
+     21,
+     52
+    ]
+   }
+  },
+  {
+   "d": "2026-10-02",
+   "s": {
+    "maths": [
+     17,
+     0,
+     9,
+     60
+    ],
+    "further": [
+     14,
+     0,
+     9,
+     62
+    ],
+    "physics": [
+     38,
+     0,
+     22,
+     57
+    ]
+   }
+  },
+  {
+   "d": "2026-10-03",
+   "s": {
+    "maths": [
+     17,
+     0,
+     9,
+     60
+    ],
+    "further": [
+     14,
+     0,
+     9,
+     62
+    ],
+    "physics": [
+     39,
+     0,
+     22,
+     50
+    ]
+   }
+  },
+  {
+   "d": "2026-10-04",
+   "s": {
+    "maths": [
+     17,
+     0,
+     9,
+     58
+    ],
+    "further": [
+     15,
+     0,
+     10,
+     62
+    ],
+    "physics": [
+     40,
+     0,
+     22,
+     45
+    ]
+   }
+  },
+  {
+   "d": "2026-10-05",
+   "s": {
+    "maths": [
+     18,
+     0,
+     10,
+     59
+    ],
+    "further": [
+     15,
+     0,
+     10,
+     62
+    ],
+    "physics": [
+     42,
+     0,
+     24,
+     45
+    ]
+   }
+  },
+  {
+   "d": "2026-10-06",
+   "s": {
+    "maths": [
+     18,
+     0,
+     10,
+     59
+    ],
+    "further": [
+     16,
+     0,
+     10,
+     62
+    ],
+    "physics": [
+     44,
+     0,
+     25,
+     50
+    ]
+   }
+  },
+  {
+   "d": "2026-10-07",
+   "s": {
+    "maths": [
+     19,
+     0,
+     11,
+     55
+    ],
+    "further": [
+     16,
+     0,
+     10,
+     62
+    ],
+    "physics": [
+     46,
+     0,
+     26,
+     52
+    ]
+   }
+  },
+  {
+   "d": "2026-10-08",
+   "s": {
+    "maths": [
+     20,
+     0,
+     11,
+     53
+    ],
+    "further": [
+     17,
+     0,
+     11,
+     60
+    ],
+    "physics": [
+     47,
+     0,
+     26,
+     58
+    ]
+   }
+  },
+  {
+   "d": "2026-10-09",
+   "s": {
+    "maths": [
+     21,
+     0,
+     12,
+     53
+    ],
+    "further": [
+     17,
+     0,
+     11,
+     60
+    ],
+    "physics": [
+     48,
+     0,
+     27,
+     54
+    ]
+   }
+  },
+  {
+   "d": "2026-10-10",
+   "s": {
+    "maths": [
+     21,
+     0,
+     12,
+     55
+    ],
+    "further": [
+     18,
+     0,
+     11,
+     56
+    ],
+    "physics": [
+     50,
+     0,
+     28,
+     52
+    ]
+   }
+  },
+  {
+   "d": "2026-10-11",
+   "s": {
+    "maths": [
+     22,
+     0,
+     12,
+     52
+    ],
+    "further": [
+     18,
+     0,
+     12,
+     59
+    ],
+    "physics": [
+     51,
+     0,
+     29,
+     56
+    ]
+   }
+  },
+  {
+   "d": "2026-10-12",
+   "s": {
+    "maths": [
+     22,
+     0,
+     12,
+     47
+    ],
+    "further": [
+     19,
+     0,
+     12,
+     56
+    ],
+    "physics": [
+     52,
+     0,
+     29,
+     52
+    ]
+   }
+  },
+  {
+   "d": "2026-10-13",
+   "s": {
+    "maths": [
+     23,
+     0,
+     13,
+     47
+    ],
+    "further": [
+     19,
+     0,
+     12,
+     44
+    ],
+    "physics": [
+     52,
+     0,
+     29,
+     56
+    ]
+   }
+  },
+  {
+   "d": "2026-10-14",
+   "s": {
+    "maths": [
+     24,
+     0,
+     13,
+     47
+    ],
+    "further": [
+     21,
+     0,
+     13,
+     42
+    ],
+    "physics": [
+     52,
+     0,
+     29,
+     56
+    ]
+   }
+  },
+  {
+   "d": "2026-10-15",
+   "s": {
+    "maths": [
+     24,
+     0,
+     13,
+     47
+    ],
+    "further": [
+     22,
+     0,
+     14,
+     42
+    ],
+    "physics": [
+     52,
+     0,
+     29,
+     56
+    ]
+   }
+  }
+ ],
+ "activity": {
+  "2026-09-03": 2,
+  "2026-09-04": 5,
+  "2026-09-05": 7,
+  "2026-09-06": 1,
+  "2026-09-07": 6,
+  "2026-09-08": 10,
+  "2026-09-09": 12,
+  "2026-09-10": 17,
+  "2026-09-11": 16,
+  "2026-09-12": 9,
+  "2026-09-13": 14,
+  "2026-09-14": 14,
+  "2026-09-15": 9,
+  "2026-09-16": 15,
+  "2026-09-17": 16,
+  "2026-09-18": 19,
+  "2026-09-19": 7,
+  "2026-09-20": 8,
+  "2026-09-21": 23,
+  "2026-09-22": 12,
+  "2026-09-23": 9,
+  "2026-09-24": 21,
+  "2026-09-25": 17,
+  "2026-09-26": 13,
+  "2026-09-27": 12,
+  "2026-09-28": 11,
+  "2026-09-29": 17,
+  "2026-09-30": 12,
+  "2026-10-01": 21,
+  "2026-10-02": 17,
+  "2026-10-03": 4,
+  "2026-10-04": 10,
+  "2026-10-05": 17,
+  "2026-10-06": 16,
+  "2026-10-07": 14,
+  "2026-10-08": 22,
+  "2026-10-09": 20,
+  "2026-10-10": 15,
+  "2026-10-11": 13,
+  "2026-10-12": 14,
+  "2026-10-13": 17,
+  "2026-10-14": 16,
+  "2026-10-15": 16
+ },
+ "trash": [],
+ "links": {},
+ "exams": [
+  {
+   "id": "mtl6dls0qwotf",
+   "name": "Year 12 mocks",
+   "date": "2027-06-08"
+  },
+  {
+   "id": "mtl6dls1ntioa",
+   "name": "A-level exams start (estimate)",
+   "date": "2028-05-15"
+  }
+ ],
+ "settings": {
+  "view": "overview",
+  "year": 1,
+  "scope": "current",
+  "open": {},
+  "collapsed": {},
+  "timer": null,
+  "hideIntro": true,
+  "dueMode": "chapter",
+  "auto": null
+ },
+ "savedAt": 1792094400000
+}
