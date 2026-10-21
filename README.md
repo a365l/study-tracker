@@ -21,6 +21,7 @@ A desktop app I use to track my A-level revision for Maths, Further Maths and Ph
 - **Revision links.** Chapters and topics link to the matching Physics & Maths Tutor and Maths Genie pages where there is one. Every link was checked when the list was built.
 - **Ctrl K search** across all topics.
 - **Backups.** A daily backup (last 30 kept), manual backups, restore, export and import.
+- **Phone connector.** Most of my revision happens in a chat app on my phone, so there's an MCP server ([`connector/`](connector/)) on Cloudflare Workers that lets the assistant check what's due, rate topics from how I actually did on questions, and log sessions and scores. Edits reach the app on my PC within 20 seconds if it's open, or next time it opens if not.
 
 ## How it works
 
@@ -59,6 +60,7 @@ demo/data.json            sample data used for the screenshot and the live demo
 tools/make_demo_data.py   generates the demo data by simulating a term of study
 tools/build_resources.py  rebuilds resources.json from saved PMT / Maths Genie pages
 tools/explore.py          dumps links from index pages when mapping new resources
+connector/                the phone connector: Cloudflare Worker + Durable Object, MCP tools, tests
 ```
 
 ## Notes

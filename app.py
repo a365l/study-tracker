@@ -3,7 +3,9 @@
 Runs a small local-only web server (127.0.0.1, random port, secret token)
 and opens the UI in a Microsoft Edge "app" window with no address bar.
 Everything is stored in data/data.json next to this file, with a daily
-backup in data/backups/. Standard library only.
+backup in data/backups/. If the data folder has a sync.json, the data is also
+pushed to the phone connector (connector/) and edits made there are pulled
+back in. Standard library only.
 
     python app.py                 normal use (opens the window)
     python app.py --no-window --port 8765 --token preview --data-dir <dir>
@@ -42,6 +44,7 @@ KEEP_DAILY_BACKUPS = 30
 PREFERRED_PORT = 47815  # fixed, so the window keeps the same origin (and its local recovery copy) between launches
 BACKUP_NAME = re.compile(r"^[\w.\-]+\.json$")
 POINTER = BASE / "data-location.txt"      # optional: put the data folder somewhere else, e.g. OneDrive
+PUSH_DELAY = 5                            # seconds of quiet after a save before pushing to the connector
 
 mimetypes.add_type("text/javascript", ".js")
 mimetypes.add_type("text/css", ".css")
@@ -110,24 +113,29 @@ def file_dialog(kind, **options):
             root.destroy()
 
 
+def load_curriculum():
+    manifest = json.loads((CURRICULUM_DIR / "manifest.json").read_text(encoding="utf-8"))
+    return [json.loads((CURRICULUM_DIR / name).read_text(encoding="utf-8")) for name in manifest["files"]]
+
+
 class Store:
     def __init__(self, data_dir):
         self.data_dir = Path(data_dir)
         self.data_file = self.data_dir / "data.json"
         self.backup_dir = self.data_dir / "backups"
         self.export_dir = self.data_dir / "exports"
+        self.sync_file = self.data_dir / "sync.json"   # {"url": ..., "token": ...} for the phone connector
         self._lock = threading.Lock()
+        self._push_lock = threading.Lock()   # guards the timer
+        self._push_io = threading.Lock()     # one upload at a time
+        self._push_timer = None
 
     # ---------- loading ----------
     def ping(self):
         return {"ok": True}
 
     def load(self):
-        manifest = json.loads((CURRICULUM_DIR / "manifest.json").read_text(encoding="utf-8"))
-        curriculum = [
-            json.loads((CURRICULUM_DIR / name).read_text(encoding="utf-8"))
-            for name in manifest["files"]
-        ]
+        curriculum = load_curriculum()
         data, warning = None, None
         if self.data_file.exists():
             try:
@@ -146,6 +154,7 @@ class Store:
                 resources = json.loads(resources_file.read_text(encoding="utf-8"))
             except (OSError, ValueError):
                 log(traceback.format_exc())
+        self._schedule_push()
         return {"curriculum": curriculum, "resources": resources, "data": data, "warning": warning,
                 "dataPath": str(self.data_file)}
 
@@ -156,6 +165,7 @@ class Store:
         with self._lock:
             self._daily_backup()
             write_json_atomic(self.data_file, data)
+        self._schedule_push()
         return {"ok": True}
 
     def _daily_backup(self):
@@ -197,7 +207,66 @@ class Store:
         with self._lock:
             self._snapshot("before-restore")
             write_json_atomic(self.data_file, data)
+        self._schedule_push()
         return {"ok": True, "data": data}
+
+    # ---------- phone connector ----------
+    def _sync_config(self):
+        try:
+            cfg = json.loads(self.sync_file.read_text(encoding="utf-8"))
+            return cfg if cfg.get("url") and cfg.get("token") else None
+        except (OSError, ValueError, AttributeError):
+            return None
+
+    def _sync_request(self, cfg, method, path, body=None):
+        req = urllib.request.Request(
+            cfg["url"].rstrip("/") + path, method=method,
+            data=None if body is None else json.dumps(body, ensure_ascii=False).encode("utf-8"),
+            headers={"Authorization": f"Bearer {cfg['token']}", "Content-Type": "application/json",
+                     "User-Agent": "StudyTracker"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            return json.loads(r.read() or b"{}")
+
+    def sync_pull(self, after=0):
+        """Edits made through the connector that this app hasn't applied yet. The UI applies them."""
+        cfg = self._sync_config()
+        if not cfg:
+            return {"ok": False, "disabled": True}
+        try:
+            return {"ok": True, "ops": self._sync_request(cfg, "GET", f"/sync/ops?after={int(after)}").get("ops", [])}
+        except Exception as exc:
+            log(f"sync pull failed: {exc}")
+            return {"ok": False, "error": str(exc)}
+
+    def _schedule_push(self):
+        if not self._sync_config():
+            return
+        with self._push_lock:
+            if self._push_timer:
+                self._push_timer.cancel()
+            self._push_timer = threading.Timer(PUSH_DELAY, self.push_now)
+            self._push_timer.daemon = True
+            self._push_timer.start()
+
+    def push_now(self):
+        """Send the saved data to the connector. It includes data.sync.appliedSeq, which clears the edits already applied."""
+        with self._push_lock:
+            if self._push_timer:
+                self._push_timer.cancel()
+                self._push_timer = None
+        cfg = self._sync_config()
+        if not cfg or not self.data_file.exists():
+            return
+        with self._push_io:
+            try:
+                data = json.loads(self.data_file.read_text(encoding="utf-8"))
+                self._sync_request(cfg, "POST", "/sync/push", {"data": data, "curriculum": load_curriculum()})
+            except Exception as exc:
+                log(f"sync push failed: {exc}")
+
+    def flush_push(self):
+        if self._push_timer:
+            self.push_now()
 
     # ---------- files ----------
     def open_data_folder(self):
@@ -247,7 +316,7 @@ class Store:
 API = {
     name: getattr(Store, name)
     for name in ("ping", "load", "save", "backup_now", "list_backups", "restore_backup",
-                 "open_data_folder", "open_url", "export_data", "pick_import_file")
+                 "open_data_folder", "open_url", "export_data", "pick_import_file", "sync_pull")
 }
 
 
@@ -454,6 +523,7 @@ def main():
         wait_for_windows_to_close(server)
     finally:
         server.shutdown()
+        server.store.flush_push()
         try:
             if json.loads(INSTANCE_FILE.read_text(encoding="utf-8")).get("token") == server.token:
                 INSTANCE_FILE.unlink()

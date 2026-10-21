@@ -1241,13 +1241,13 @@ function rateTopic(tkey) {
     toast(`${t.name}: ${RAG[r].label}. Back in ${RAG[r].days} days.`);
   }));
 }
-/* "What now?" — turn the lists into one concrete session. */
+/* "What now?": turn the lists into one concrete session. */
 function planSession() {
   const due = dueTopics(), picks = [];
   const take = (topic, why, mins) => {
     if (topic && !picks.some(p => p.t.key === topic.key)) picks.push({ t: topic, why, mins });
   };
-  take((due.find(r => ragOf(r.t.key) === 'red') || {}).t, 'Red and due — start here', 20);
+  take((due.find(r => ragOf(r.t.key) === 'red') || {}).t, 'Red and due, start here', 20);
   take((due.find(r => ragOf(r.t.key) === 'amber') || {}).t, 'Amber and due', 15);
   take(consolidateList()[0], 'Taught in class, not written up yet', 15);
   if (picks.length < 3) take(unratedTopics()[0], 'Practised but never rated', 10);
@@ -1269,7 +1269,7 @@ function planSession() {
     <h3>${picks.length ? `A ${total}-minute session` : 'Nothing waiting'}</h3>
     ${picks.length ? `<p class="mtext">Work down these. Press <b>Start studying</b> first and your updates get logged for you.</p>
       <div class="plan">${picks.map((p, i) => `<button class="planrow" data-action="open-topic" data-topic="${esc(p.t.key)}">
-        <span class="plan-n">${i + 1}</span><span class="plan-main"><b>${esc(p.t.name)}</b><small>${esc(p.t.unit.subject.name)} · ${esc(p.t.unit.name)} — ${esc(p.why)}</small></span>
+        <span class="plan-n">${i + 1}</span><span class="plan-main"><b>${esc(p.t.name)}</b><small>${esc(p.t.unit.subject.name)} · ${esc(p.t.unit.name)} · ${esc(p.why)}</small></span>
         <span class="plan-mins">${p.mins}m</span></button>`).join('')}</div>`
       : `<p class="mtext">No reviews are due and nothing is waiting to be written up. Good time to learn something new: open a subject and start the next chapter.</p>`}
     <div class="mfoot"><button data-m="cancel">Close</button>${picks.length && !D.settings.timer ? '<button class="primary" data-m="start">Start studying</button>' : ''}</div>`);
@@ -1464,7 +1464,7 @@ const ACTIONS = {
     D.settings.autoLog = !autoOn();
     if (!autoOn()) closeAuto(true);
     persist(); render();
-    toast(autoOn() ? 'Rating a topic will log the time automatically' : 'Automatic logging off — use Start studying');
+    toast(autoOn() ? 'Rating a topic will log the time automatically' : 'Automatic logging off. Use Start studying instead');
   },
   'what-now'() { planSession(); },
   'open-resources'(el) { openResources(el.dataset.key); },
@@ -1684,6 +1684,59 @@ setInterval(() => {
   }
 }, 1000);
 
+/* ---------- phone connector ----------
+   Edits made through the MCP connector (connector/) wait on the server until this app applies them,
+   with the same effect as clicking, timed when they were made. D.sync.appliedSeq goes back with the
+   next save, which clears them from the server. */
+const typing = () => { const a = document.activeElement; return !!a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName); };
+const Sync = {
+  on: true, busy: false, stale: false,
+  start() {
+    if (!Backend.native) return;
+    this.pull();
+    setInterval(() => this.pull(), 20000);
+    window.addEventListener('focus', () => this.pull());
+  },
+  async pull() {
+    if (this.stale && !typing()) { this.stale = false; render(); }
+    if (!this.on || this.busy) return;
+    this.busy = true;
+    try {
+      const res = await Backend.call('sync_pull', (D.sync && D.sync.appliedSeq) || 0);
+      if (res.disabled) { this.on = false; return; }
+      $('#modeNote').textContent = res.ok ? '' : 'Phone connector offline, retrying';
+      if (res.ok && res.ops.length) applyRemote(res.ops);
+    } catch { /* app.py unreachable: saving shows that already */ }
+    finally { this.busy = false; }
+  },
+};
+function applyRemote(ops) {
+  D.sync = D.sync || { appliedSeq: 0 };
+  let n = 0;
+  for (const op of [...ops].sort((a, b) => a.seq - b.seq)) {
+    if (op.seq <= D.sync.appliedSeq) continue;
+    if (op.type === 'topic') {
+      const cur = { ...(D.topics[op.key] || {}) };
+      if ('stage' in op) { cur.stage = op.stage; cur.at = op.at; if (op.stage > 0) cur.taughtAt = cur.taughtAt || op.at; }
+      if ('rag' in op) {
+        if (RAG[op.rag]) { cur.rag = op.rag; cur.reviewedAt = op.at; cur.at = op.at; }
+        else { delete cur.rag; delete cur.conf; delete cur.reviewedAt; }
+      }
+      if ('note' in op) { if (op.note) cur.note = op.note; else delete cur.note; }
+      if (cur.stage || cur.rag || cur.note) D.topics[op.key] = cur; else delete D.topics[op.key];
+      markActivity(isoDate(op.at));
+    } else if (op.type === 'log' || op.type === 'score') {
+      const list = op.type === 'log' ? D.log : D.scores;
+      if (!list.some(e => e.id === op.entry.id)) list.push(op.entry);
+    }
+    D.sync.appliedSeq = op.seq; n++;
+  }
+  if (!n) return;
+  snapshotTrend(); persist();
+  if (typing()) Sync.stale = true; else render();
+  toast(`${plural(n, 'change')} from the phone connector`);
+}
+
 /* ---------- start ---------- */
 (async function init() {
   await Backend.connect();
@@ -1714,5 +1767,6 @@ setInterval(() => {
   render();
   if (!res.data || !hadToday || recovered) persist(); else setSaveState('saved');
   if (recovered) toast('Recovered changes that hadn’t been saved last time');
+  Sync.start();
 })();
 

@@ -8,3 +8,8 @@ tools/pages/
 __pycache__/
 *.pyc
 *.tmp
+
+# connector
+connector/node_modules/
+connector/.wrangler/
+sync.json
